@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 130" width="860" height="130">
+  <defs>
+    <style>
+      .base { font-family: 'Courier New', Courier, monospace; font-size: 46px; font-weight: 900; fill: #00ff88; letter-spacing: 2px; }
+      .c1   { fill: #ff2d6b; }
+      .c2   { fill: #00e5ff; }
+      @keyframes g1 {
+        0%,100%{ clip-path:inset(0 0 92% 0); transform:translate(-5px,0); opacity:.8 }
+        15%    { clip-path:inset(28% 0 52% 0); transform:translate(5px,0) }
+        35%    { clip-path:inset(72% 0 8% 0);  transform:translate(-5px,0) }
+        55%    { clip-path:inset(12% 0 78% 0); transform:translate(5px,0) }
+        75%    { clip-path:inset(58% 0 22% 0); transform:translate(-3px,0) }
+      }
+      @keyframes g2 {
+        0%,100%{ clip-path:inset(82% 0 0% 0); transform:translate(5px,0);  opacity:.8 }
+        15%    { clip-path:inset(8% 0 72% 0);  transform:translate(-5px,0) }
+        35%    { clip-path:inset(48% 0 32% 0); transform:translate(5px,0) }
+        55%    { clip-path:inset(18% 0 62% 0); transform:translate(-5px,0) }
+        75%    { clip-path:inset(68% 0 12% 0); transform:translate(3px,0) }
+      }
+      @keyframes flicker {
+        0%,100%{ opacity:1 } 92%{ opacity:1 } 93%{ opacity:.4 } 94%{ opacity:1 } 96%{ opacity:.6 } 97%{ opacity:1 }
+      }
+      .a1{ animation: g1 2.8s infinite; }
+      .a2{ animation: g2 2.8s infinite; }
+      .fl{ animation: flicker 4s infinite; }
+    </style>
+  </defs>
+  <rect width="860" height="130" fill="#0d1117"/>
+  <text x="430" y="82" text-anchor="middle" class="base fl">Llewxam Urekak · Dev</text>
+  <text x="430" y="82" text-anchor="middle" class="base c1 a1">Llewxam Urekak · Dev</text>
+  <text x="430" y="82" text-anchor="middle" class="base c2 a2">Llewxam Urekak · Dev</text>
+</svg>
