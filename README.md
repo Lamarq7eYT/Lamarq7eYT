@@ -27,7 +27,7 @@ const llewxam = {
   education: "Análise e Desenvolvimento de Sistemas 📚",
   location:  "Brasil 🇧🇷",
   learning:  ["Modelagem 3D", "Animação 3D", "Blender / WebGL"],
-  focus:     "Criar experiências digitais que misturam código, design e arte",
+  focus:     "Criar experiências digitais que misturam código, design e animação",
   available: true,
 };
 ```
