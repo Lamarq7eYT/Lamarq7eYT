@@ -1,33 +1,126 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 130" width="860" height="130">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 210" width="860" height="210" role="img" aria-labelledby="title desc">
+  <title id="title">Lamarq7eYT - Frame a Frame Developer Profile</title>
+  <desc id="desc">A frame-by-frame animation themed GitHub profile header spelling Lamarq7eYT.</desc>
   <defs>
     <style>
-      .base { font-family: 'Courier New', Courier, monospace; font-size: 46px; font-weight: 900; fill: #00ff88; letter-spacing: 2px; }
-      .c1   { fill: #ff2d6b; }
-      .c2   { fill: #00e5ff; }
-      @keyframes g1 {
-        0%,100%{ clip-path:inset(0 0 92% 0); transform:translate(-5px,0); opacity:.8 }
-        15%    { clip-path:inset(28% 0 52% 0); transform:translate(5px,0) }
-        35%    { clip-path:inset(72% 0 8% 0);  transform:translate(-5px,0) }
-        55%    { clip-path:inset(12% 0 78% 0); transform:translate(5px,0) }
-        75%    { clip-path:inset(58% 0 22% 0); transform:translate(-3px,0) }
+      .bg { fill: #0d1117; }
+      .rail { fill: #101820; stroke: #26323f; stroke-width: 1; }
+      .frame { fill: #0f1720; stroke: #00ff88; stroke-width: 1.5; }
+      .frame-alt { stroke: #00e5ff; }
+      .frame-hot { stroke: #ff2d6b; }
+      .letter {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 38px;
+        font-weight: 900;
+        fill: #00ff88;
       }
-      @keyframes g2 {
-        0%,100%{ clip-path:inset(82% 0 0% 0); transform:translate(5px,0);  opacity:.8 }
-        15%    { clip-path:inset(8% 0 72% 0);  transform:translate(-5px,0) }
-        35%    { clip-path:inset(48% 0 32% 0); transform:translate(5px,0) }
-        55%    { clip-path:inset(18% 0 62% 0); transform:translate(-5px,0) }
-        75%    { clip-path:inset(68% 0 12% 0); transform:translate(3px,0) }
+      .title {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 28px;
+        font-weight: 900;
+        letter-spacing: 4px;
+        fill: #c9d1d9;
       }
-      @keyframes flicker {
-        0%,100%{ opacity:1 } 92%{ opacity:1 } 93%{ opacity:.4 } 94%{ opacity:1 } 96%{ opacity:.6 } 97%{ opacity:1 }
+      .sub {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: 3px;
+        fill: #8b949e;
       }
-      .a1{ animation: g1 2.8s infinite; }
-      .a2{ animation: g2 2.8s infinite; }
-      .fl{ animation: flicker 4s infinite; }
+      .label {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 10px;
+        font-weight: 700;
+        fill: #8b949e;
+      }
+      .scan { fill: #00ff88; opacity: .08; }
+      .cyan { fill: #00e5ff; }
+      .pink { fill: #ff2d6b; }
+      @keyframes pop {
+        0%, 100% { opacity: .72; transform: translateY(0); }
+        45% { opacity: 1; transform: translateY(-3px); }
+      }
+      @keyframes sweep {
+        0% { transform: translateX(-860px); opacity: 0; }
+        20% { opacity: .5; }
+        80% { opacity: .5; }
+        100% { transform: translateX(860px); opacity: 0; }
+      }
+      .f01 { animation: pop 2.4s steps(2, end) infinite; }
+      .f02 { animation: pop 2.4s steps(2, end) .12s infinite; }
+      .f03 { animation: pop 2.4s steps(2, end) .24s infinite; }
+      .f04 { animation: pop 2.4s steps(2, end) .36s infinite; }
+      .f05 { animation: pop 2.4s steps(2, end) .48s infinite; }
+      .f06 { animation: pop 2.4s steps(2, end) .60s infinite; }
+      .f07 { animation: pop 2.4s steps(2, end) .72s infinite; }
+      .f08 { animation: pop 2.4s steps(2, end) .84s infinite; }
+      .f09 { animation: pop 2.4s steps(2, end) .96s infinite; }
+      .f10 { animation: pop 2.4s steps(2, end) 1.08s infinite; }
+      .sweep { animation: sweep 4.5s linear infinite; }
     </style>
   </defs>
-  <rect width="860" height="130" fill="#0d1117"/>
-  <text x="430" y="82" text-anchor="middle" class="base fl">Llewxam Urekak · Dev</text>
-  <text x="430" y="82" text-anchor="middle" class="base c1 a1">Llewxam Urekak · Dev</text>
-  <text x="430" y="82" text-anchor="middle" class="base c2 a2">Llewxam Urekak · Dev</text>
+
+  <rect class="bg" width="860" height="210" />
+  <rect class="rail" x="22" y="24" width="816" height="118" rx="8" />
+
+  <g opacity=".9">
+    <rect x="36" y="34" width="18" height="14" fill="#26323f" />
+    <rect x="76" y="34" width="18" height="14" fill="#26323f" />
+    <rect x="116" y="34" width="18" height="14" fill="#26323f" />
+    <rect x="156" y="34" width="18" height="14" fill="#26323f" />
+    <rect x="196" y="34" width="18" height="14" fill="#26323f" />
+    <rect x="236" y="34" width="18" height="14" fill="#26323f" />
+    <rect x="276" y="34" width="18" height="14" fill="#26323f" />
+    <rect x="316" y="34" width="18" height="14" fill="#26323f" />
+    <rect x="356" y="34" width="18" height="14" fill="#26323f" />
+    <rect x="396" y="34" width="18" height="14" fill="#26323f" />
+    <rect x="436" y="34" width="18" height="14" fill="#26323f" />
+    <rect x="476" y="34" width="18" height="14" fill="#26323f" />
+    <rect x="516" y="34" width="18" height="14" fill="#26323f" />
+    <rect x="556" y="34" width="18" height="14" fill="#26323f" />
+    <rect x="596" y="34" width="18" height="14" fill="#26323f" />
+    <rect x="636" y="34" width="18" height="14" fill="#26323f" />
+    <rect x="676" y="34" width="18" height="14" fill="#26323f" />
+    <rect x="716" y="34" width="18" height="14" fill="#26323f" />
+    <rect x="756" y="34" width="18" height="14" fill="#26323f" />
+    <rect x="796" y="34" width="18" height="14" fill="#26323f" />
+    <rect x="36" y="118" width="18" height="14" fill="#26323f" />
+    <rect x="76" y="118" width="18" height="14" fill="#26323f" />
+    <rect x="116" y="118" width="18" height="14" fill="#26323f" />
+    <rect x="156" y="118" width="18" height="14" fill="#26323f" />
+    <rect x="196" y="118" width="18" height="14" fill="#26323f" />
+    <rect x="236" y="118" width="18" height="14" fill="#26323f" />
+    <rect x="276" y="118" width="18" height="14" fill="#26323f" />
+    <rect x="316" y="118" width="18" height="14" fill="#26323f" />
+    <rect x="356" y="118" width="18" height="14" fill="#26323f" />
+    <rect x="396" y="118" width="18" height="14" fill="#26323f" />
+    <rect x="436" y="118" width="18" height="14" fill="#26323f" />
+    <rect x="476" y="118" width="18" height="14" fill="#26323f" />
+    <rect x="516" y="118" width="18" height="14" fill="#26323f" />
+    <rect x="556" y="118" width="18" height="14" fill="#26323f" />
+    <rect x="596" y="118" width="18" height="14" fill="#26323f" />
+    <rect x="636" y="118" width="18" height="14" fill="#26323f" />
+    <rect x="676" y="118" width="18" height="14" fill="#26323f" />
+    <rect x="716" y="118" width="18" height="14" fill="#26323f" />
+    <rect x="756" y="118" width="18" height="14" fill="#26323f" />
+    <rect x="796" y="118" width="18" height="14" fill="#26323f" />
+  </g>
+
+  <g transform="translate(53 55)">
+    <g class="f01"><rect class="frame" x="0" y="0" width="62" height="54" rx="4"/><text class="letter" x="31" y="39" text-anchor="middle">L</text><text class="label" x="31" y="68" text-anchor="middle">001</text></g>
+    <g class="f02"><rect class="frame frame-alt" x="76" y="0" width="62" height="54" rx="4"/><text class="letter cyan" x="107" y="39" text-anchor="middle">A</text><text class="label" x="107" y="68" text-anchor="middle">002</text></g>
+    <g class="f03"><rect class="frame" x="152" y="0" width="62" height="54" rx="4"/><text class="letter" x="183" y="39" text-anchor="middle">M</text><text class="label" x="183" y="68" text-anchor="middle">003</text></g>
+    <g class="f04"><rect class="frame frame-hot" x="228" y="0" width="62" height="54" rx="4"/><text class="letter pink" x="259" y="39" text-anchor="middle">A</text><text class="label" x="259" y="68" text-anchor="middle">004</text></g>
+    <g class="f05"><rect class="frame" x="304" y="0" width="62" height="54" rx="4"/><text class="letter" x="335" y="39" text-anchor="middle">R</text><text class="label" x="335" y="68" text-anchor="middle">005</text></g>
+    <g class="f06"><rect class="frame frame-alt" x="380" y="0" width="62" height="54" rx="4"/><text class="letter cyan" x="411" y="39" text-anchor="middle">Q</text><text class="label" x="411" y="68" text-anchor="middle">006</text></g>
+    <g class="f07"><rect class="frame" x="456" y="0" width="62" height="54" rx="4"/><text class="letter" x="487" y="39" text-anchor="middle">7</text><text class="label" x="487" y="68" text-anchor="middle">007</text></g>
+    <g class="f08"><rect class="frame frame-hot" x="532" y="0" width="62" height="54" rx="4"/><text class="letter pink" x="563" y="39" text-anchor="middle">E</text><text class="label" x="563" y="68" text-anchor="middle">008</text></g>
+    <g class="f09"><rect class="frame" x="608" y="0" width="62" height="54" rx="4"/><text class="letter" x="639" y="39" text-anchor="middle">Y</text><text class="label" x="639" y="68" text-anchor="middle">009</text></g>
+    <g class="f10"><rect class="frame frame-alt" x="684" y="0" width="62" height="54" rx="4"/><text class="letter cyan" x="715" y="39" text-anchor="middle">T</text><text class="label" x="715" y="68" text-anchor="middle">010</text></g>
+  </g>
+
+  <rect class="scan sweep" x="0" y="24" width="160" height="118" />
+  <text class="title" x="430" y="174" text-anchor="middle">FRAME A FRAME</text>
+  <text class="sub" x="430" y="196" text-anchor="middle">FULL-STACK SECURITY / MOTION-MINDED WEB</text>
 </svg>
