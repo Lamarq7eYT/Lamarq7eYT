@@ -23,16 +23,6 @@
   <img src="./ink-background.svg" alt="Ink frame background concept for the full README" width="860" />
 </p>
 
-<table align="center">
-  <tr>
-    <td align="center"><strong>FRAME 01</strong><br />sketch</td>
-    <td align="center"><strong>FRAME 02</strong><br />code</td>
-    <td align="center"><strong>FRAME 03</strong><br />motion</td>
-    <td align="center"><strong>FRAME 04</strong><br />security</td>
-    <td align="center"><strong>FRAME 05</strong><br />ship</td>
-  </tr>
-</table>
-
 ---
 
 ## Frame 01 - Identity
@@ -81,13 +71,6 @@ I build projects like animation: a rough frame, a cleaner frame, a working frame
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Lamarq7eYT&repo=AegisCore&bg_color=ffffff&title_color=111111&text_color=333333&icon_color=00a7c7&border_color=111111" alt="AegisCore repository card" />
   </a>
 </p>
-
-| Scene | Project | What it shows | Stack |
-| --- | --- | --- | --- |
-| `001` | [AegisHub](https://github.com/Lamarq7eYT/AegisHub) | Security analysis for GitHub repos, secrets detection, CLI workflow, dashboard thinking | Rust, TypeScript, React |
-| `002` | [AegisCore](https://github.com/Lamarq7eYT/AegisCore) | Defensive web platform baseline with API, admin demo, observability, and risk scoring | TypeScript, Rust, Fastify, React |
-| `003` | [HackerPage](https://github.com/Lamarq7eYT/HackerPage) | Interactive educational web experience about hacker history and security incidents | HTML5, CSS3, 3D assets |
-| `004` | [Portf-lio](https://github.com/Lamarq7eYT/Portf-lio) | Cinematic portfolio with motion, scenes, embedded demos, and visual storytelling | React, Vite, TypeScript |
 
 <p align="center">
   <a href="https://github.com/Lamarq7eYT/AegisHub/stargazers">
