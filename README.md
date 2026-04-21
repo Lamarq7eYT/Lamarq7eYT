@@ -70,6 +70,10 @@ I build projects like animation: a rough frame, a cleaner frame, a working frame
 ## Frame 02 - Featured Scenes
 
 <p align="center">
+  <img src="./project-reel.svg" alt="Animated project reel for AegisHub, AegisCore, HackerPage, and Portf-lio" width="860" />
+</p>
+
+<p align="center">
   <a href="https://github.com/Lamarq7eYT/AegisHub">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Lamarq7eYT&repo=AegisHub&bg_color=ffffff&title_color=111111&text_color=333333&icon_color=ff2d6b&border_color=111111" alt="AegisHub repository card" />
   </a>
@@ -184,7 +188,11 @@ I build projects like animation: a rough frame, a cleaner frame, a working frame
 ## Frame 05 - Trophy Board
 
 <p align="center">
-  <img src="https://github-profile-trophy.screw-hand.vercel.app/?username=Lamarq7eYT&theme=flat&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=4" alt="Lamarq7eYT GitHub profile trophies" />
+  <img src="./trophy-reel.svg" alt="Animated trophy reel for Lamarq7eYT GitHub achievements" width="860" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.screw-hand.vercel.app/?username=Lamarq7eYT&theme=flat&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=4" alt="Live Lamarq7eYT GitHub profile trophies" />
 </p>
 
 <p align="center">

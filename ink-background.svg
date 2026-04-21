@@ -8,8 +8,9 @@
       .soft { fill: #050505; opacity: .14; }
       .line { stroke: #050505; stroke-width: 2; stroke-linecap: round; fill: none; }
       .hair { stroke: #050505; stroke-width: 1; stroke-linecap: round; fill: none; opacity: .55; }
-      .title { font-family: 'Courier New', Courier, monospace; font-size: 25px; font-weight: 900; letter-spacing: 4px; fill: #050505; }
-      .sub { font-family: 'Courier New', Courier, monospace; font-size: 12px; font-weight: 800; letter-spacing: 3px; fill: #050505; }
+      .title { font-family: 'Courier New', Courier, monospace; font-size: 34px; font-weight: 900; letter-spacing: 5px; fill: #050505; }
+      .sub { font-family: 'Courier New', Courier, monospace; font-size: 12px; font-weight: 800; letter-spacing: 2px; fill: #050505; }
+      .keyword { font-family: 'Courier New', Courier, monospace; font-size: 13px; font-weight: 900; letter-spacing: 1px; fill: #050505; }
       .small { font-family: 'Courier New', Courier, monospace; font-size: 10px; font-weight: 800; fill: #ffffff; letter-spacing: 2px; }
       .cyan { fill: #00e5ff; }
       .pink { fill: #ff2d6b; }
@@ -74,6 +75,7 @@
 
   <text class="small" x="22" y="119" text-anchor="middle" transform="rotate(-90 22 119)">FRAME ROLL</text>
   <text class="small" x="838" y="119" text-anchor="middle" transform="rotate(90 838 119)">INK PASS</text>
-  <text class="title" x="430" y="107" text-anchor="middle">README BACKDROP</text>
-  <text class="sub" x="430" y="134" text-anchor="middle">BLACK INK / WHITE PAPER / FRAME-BY-FRAME MOTION</text>
+  <text class="title" x="430" y="92" text-anchor="middle">LLEWXAM</text>
+  <text class="keyword" x="430" y="122" text-anchor="middle">AEGISHUB / AEGISCORE / DEFENSIVE SECURITY / FULL-STACK SYSTEMS</text>
+  <text class="sub" x="430" y="148" text-anchor="middle">POLYGLOT ENGINEERING / JS-TS FRAMEWORKS / 3D WEB MOTION / TOOLING</text>
 </svg>
