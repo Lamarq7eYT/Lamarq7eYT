@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <img src="./ink-lines.svg" alt="Animated white ink skill lines" width="860" />
+  <img src="./ink-splash-lines.svg" alt="Animated white ink skill lines" width="860" />
 </p>
 
 <p align="center">
