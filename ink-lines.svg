@@ -8,10 +8,11 @@
       .black { fill: #050505; }
       .line {
         font-family: 'Courier New', Courier, monospace;
-        font-size: 23px;
+        font-size: 19px;
         font-weight: 900;
-        letter-spacing: 1px;
+        letter-spacing: .8px;
         fill: #ffffff;
+        opacity: 0;
       }
       .label {
         font-family: 'Courier New', Courier, monospace;
@@ -21,20 +22,67 @@
         fill: #ffffff;
       }
       .hole { fill: #ffffff; opacity: .92; }
-      @keyframes phrase {
-        0%, 8% { opacity: 0; transform: translateY(10px) scale(.985); }
-        15%, 70% { opacity: 1; transform: translateY(0) scale(1); }
-        82%, 100% { opacity: 0; transform: translateY(-6px) scale(1.015); }
+      @keyframes phrase1 {
+        0%, 3% { opacity: 0; transform: translateY(8px) scale(.985); }
+        6%, 15% { opacity: 1; transform: translateY(0) scale(1); }
+        19%, 100% { opacity: 0; transform: translateY(-5px) scale(1.015); }
       }
-      @keyframes splash {
-        0%, 8% { opacity: 0; transform: scale(.2) translateX(-90px); }
-        18%, 32% { opacity: .9; transform: scale(1) translateX(0); }
-        64% { opacity: .26; }
-        82%, 100% { opacity: 0; transform: scale(1.12) translateX(90px); }
+      @keyframes phrase2 {
+        0%, 19% { opacity: 0; transform: translateY(8px) scale(.985); }
+        22%, 35% { opacity: 1; transform: translateY(0) scale(1); }
+        39%, 100% { opacity: 0; transform: translateY(-5px) scale(1.015); }
+      }
+      @keyframes phrase3 {
+        0%, 39% { opacity: 0; transform: translateY(8px) scale(.985); }
+        42%, 55% { opacity: 1; transform: translateY(0) scale(1); }
+        59%, 100% { opacity: 0; transform: translateY(-5px) scale(1.015); }
+      }
+      @keyframes phrase4 {
+        0%, 59% { opacity: 0; transform: translateY(8px) scale(.985); }
+        62%, 75% { opacity: 1; transform: translateY(0) scale(1); }
+        79%, 100% { opacity: 0; transform: translateY(-5px) scale(1.015); }
+      }
+      @keyframes phrase5 {
+        0%, 79% { opacity: 0; transform: translateY(8px) scale(.985); }
+        82%, 95% { opacity: 1; transform: translateY(0) scale(1); }
+        99%, 100% { opacity: 0; transform: translateY(-5px) scale(1.015); }
+      }
+      @keyframes splash1 {
+        0%, 3% { opacity: 0; transform: scale(.2) translateX(-80px); }
+        6%, 15% { opacity: .78; transform: scale(1) translateX(0); }
+        19%, 100% { opacity: 0; transform: scale(1.08) translateX(80px); }
+      }
+      @keyframes splash2 {
+        0%, 19% { opacity: 0; transform: scale(.2) translateX(-80px); }
+        22%, 35% { opacity: .78; transform: scale(1) translateX(0); }
+        39%, 100% { opacity: 0; transform: scale(1.08) translateX(80px); }
+      }
+      @keyframes splash3 {
+        0%, 39% { opacity: 0; transform: scale(.2) translateX(-80px); }
+        42%, 55% { opacity: .78; transform: scale(1) translateX(0); }
+        59%, 100% { opacity: 0; transform: scale(1.08) translateX(80px); }
+      }
+      @keyframes splash4 {
+        0%, 59% { opacity: 0; transform: scale(.2) translateX(-80px); }
+        62%, 75% { opacity: .78; transform: scale(1) translateX(0); }
+        79%, 100% { opacity: 0; transform: scale(1.08) translateX(80px); }
+      }
+      @keyframes splash5 {
+        0%, 79% { opacity: 0; transform: scale(.2) translateX(-80px); }
+        82%, 95% { opacity: .78; transform: scale(1) translateX(0); }
+        99%, 100% { opacity: 0; transform: scale(1.08) translateX(80px); }
       }
       @keyframes cut {
-        0%, 58% { transform: translateX(-900px) skewX(-16deg); opacity: 0; }
-        68%, 82% { opacity: 1; }
+        0%, 15% { transform: translateX(-900px) skewX(-16deg); opacity: 0; }
+        17%, 19% { transform: translateX(0) skewX(-16deg); opacity: .96; }
+        20%, 35% { transform: translateX(-900px) skewX(-16deg); opacity: 0; }
+        37%, 39% { transform: translateX(0) skewX(-16deg); opacity: .96; }
+        40%, 55% { transform: translateX(-900px) skewX(-16deg); opacity: 0; }
+        57%, 59% { transform: translateX(0) skewX(-16deg); opacity: .96; }
+        60%, 75% { transform: translateX(-900px) skewX(-16deg); opacity: 0; }
+        77%, 79% { transform: translateX(0) skewX(-16deg); opacity: .96; }
+        80%, 95% { transform: translateX(-900px) skewX(-16deg); opacity: 0; }
+        97%, 99% { transform: translateX(0) skewX(-16deg); opacity: .96; }
         100% { transform: translateX(900px) skewX(-16deg); opacity: 0; }
       }
       @keyframes drip {
@@ -45,17 +93,17 @@
         0%, 100% { opacity: .25; }
         50% { opacity: 1; }
       }
-      .p1 { animation: phrase 10s steps(2, end) infinite; }
-      .p2 { animation: phrase 10s steps(2, end) 2s infinite; }
-      .p3 { animation: phrase 10s steps(2, end) 4s infinite; }
-      .p4 { animation: phrase 10s steps(2, end) 6s infinite; }
-      .p5 { animation: phrase 10s steps(2, end) 8s infinite; }
-      .s1 { animation: splash 10s ease-in-out infinite; transform-origin: 430px 59px; }
-      .s2 { animation: splash 10s ease-in-out 2s infinite; transform-origin: 430px 59px; }
-      .s3 { animation: splash 10s ease-in-out 4s infinite; transform-origin: 430px 59px; }
-      .s4 { animation: splash 10s ease-in-out 6s infinite; transform-origin: 430px 59px; }
-      .s5 { animation: splash 10s ease-in-out 8s infinite; transform-origin: 430px 59px; }
-      .cut { animation: cut 10s ease-in-out infinite; }
+      .p1 { animation: phrase1 12s steps(2, end) infinite; }
+      .p2 { animation: phrase2 12s steps(2, end) infinite; }
+      .p3 { animation: phrase3 12s steps(2, end) infinite; }
+      .p4 { animation: phrase4 12s steps(2, end) infinite; }
+      .p5 { animation: phrase5 12s steps(2, end) infinite; }
+      .s1 { animation: splash1 12s ease-in-out infinite; transform-origin: 430px 59px; }
+      .s2 { animation: splash2 12s ease-in-out infinite; transform-origin: 430px 59px; }
+      .s3 { animation: splash3 12s ease-in-out infinite; transform-origin: 430px 59px; }
+      .s4 { animation: splash4 12s ease-in-out infinite; transform-origin: 430px 59px; }
+      .s5 { animation: splash5 12s ease-in-out infinite; transform-origin: 430px 59px; }
+      .cut { animation: cut 12s ease-in-out infinite; }
       .d1 { animation: drip 3.2s ease-in-out infinite; }
       .d2 { animation: drip 3.7s ease-in-out .4s infinite; }
       .d3 { animation: drip 3.4s ease-in-out .8s infinite; }
@@ -120,5 +168,5 @@
   <circle class="paper d1" cx="116" cy="22" r="4"/>
   <circle class="paper d2" cx="754" cy="24" r="5"/>
   <circle class="paper d3" cx="423" cy="99" r="4"/>
-  <text class="label" x="430" y="94" text-anchor="middle">INK SPLASH / FRAME CUT / NO TYPING</text>
+  <text class="label" x="430" y="94" text-anchor="middle">BENDY-STYLE INK MACHINE REEL / FRAME CUT / SPLASH LOOP</text>
 </svg>
