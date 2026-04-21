@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=22&pause=950&color=111111&center=true&vCenter=true&width=780&lines=Frame+01+-+Full-Stack+Developer;Frame+02+-+Security+Engineering+Student;Frame+03+-+Python+%2B+JS%2FTS+%2B+Rust+%2B+Assembly;Frame+04+-+Major+JavaScript%2FTypeScript+frameworks;Frame+05+-+Black+ink%2C+white+frames%2C+colored+motion" alt="Frame a Frame typing animation" />
+  <img src="./ink-lines.svg" alt="Animated white ink skill lines" width="860" />
 </p>
 
 <p align="center">
