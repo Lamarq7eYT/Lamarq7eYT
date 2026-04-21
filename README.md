@@ -25,7 +25,7 @@
 
 ---
 
-## Frame 01 - Identity
+## Identity
 
 ```ts
 const llew = {
@@ -57,7 +57,7 @@ I build projects like animation: a rough frame, a cleaner frame, a working frame
   <img src="./ink-divider.svg" alt="Animated ink divider" width="860" />
 </p>
 
-## Frame 02 - Featured Scenes
+## Featured Scenes
 
 <p align="center">
   <img src="./project-reel.svg" alt="Animated project reel for AegisHub, AegisCore, HackerPage, and Portf-lio" width="860" />
@@ -88,7 +88,7 @@ I build projects like animation: a rough frame, a cleaner frame, a working frame
   <img src="./ink-divider.svg" alt="Animated ink divider" width="860" />
 </p>
 
-## Frame 03 - Toolkit
+## Toolkit
 
 ### Languages
 
@@ -153,7 +153,7 @@ I build projects like animation: a rough frame, a cleaner frame, a working frame
   <img src="./ink-divider.svg" alt="Animated ink divider" width="860" />
 </p>
 
-## Frame 04 - Stats Roll
+## Stats Roll
 
 <p align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Lamarq7eYT&show_icons=true&bg_color=ffffff&title_color=111111&text_color=333333&icon_color=ff2d6b&border_color=111111&hide_border=false&count_private=true" alt="Lamarq7eYT GitHub stats" />
@@ -168,7 +168,7 @@ I build projects like animation: a rough frame, a cleaner frame, a working frame
   <img src="./ink-divider.svg" alt="Animated ink divider" width="860" />
 </p>
 
-## Frame 05 - Trophy Board
+## Trophy Board
 
 <p align="center">
   <img src="./trophy-reel.svg" alt="Animated trophy reel for Lamarq7eYT GitHub achievements" width="860" />
@@ -182,7 +182,7 @@ I build projects like animation: a rough frame, a cleaner frame, a working frame
   <img src="./ink-divider.svg" alt="Animated ink divider" width="860" />
 </p>
 
-## Frame 06 - Activity Graph
+## Activity Graph
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Lamarq7eYT&bg_color=ffffff&color=111111&line=111111&point=ff2d6b&area=true&area_color=00000018&hide_border=false&border_color=111111" alt="Lamarq7eYT activity graph" />
