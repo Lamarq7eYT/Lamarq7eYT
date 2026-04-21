@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-  <img src="./ink-divider.svg" alt="Animated ink divider" width="860" />
+  <img src="./ink-background.svg" alt="Ink frame background concept for the full README" width="860" />
 </p>
 
 <table align="center">
@@ -203,4 +203,8 @@ I build projects like animation: a rough frame, a cleaner frame, a working frame
   <a href="https://github.com/Lamarq7eYT?tab=repositories">Repositories</a> /
   <a href="https://github.com/Lamarq7eYT?tab=stars">Stars</a> /
   <a href="https://github.com/Lamarq7eYT?tab=followers">Followers</a>
+</p>
+
+<p align="center">
+  <img src="./ink-background.svg" alt="Ink frame footer" width="860" />
 </p>
