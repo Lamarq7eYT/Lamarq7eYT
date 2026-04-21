@@ -64,10 +64,10 @@ To be honest, I really like TypeScript; the stack I use most often in my day-to-
 
 <p align="center">
   <a href="https://github.com/Lamarq7eYT/AegisHub">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Lamarq7eYT&repo=AegisHub&bg_color=ffffff&title_color=111111&text_color=333333&icon_color=ff2d6b&border_color=111111" alt="AegisHub repository card" />
+    <img src="https://github-readme-stats-rust-tau-40.vercel.app/api/pin/?username=Lamarq7eYT&repo=AegisHub&bg_color=ffffff&title_color=111111&text_color=333333&icon_color=ff2d6b&border_color=111111" alt="AegisHub repository card" />
   </a>
   <a href="https://github.com/Lamarq7eYT/AegisCore">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Lamarq7eYT&repo=AegisCore&bg_color=ffffff&title_color=111111&text_color=333333&icon_color=00a7c7&border_color=111111" alt="AegisCore repository card" />
+    <img src="https://github-readme-stats-rust-tau-40.vercel.app/api/pin/?username=Lamarq7eYT&repo=AegisCore&bg_color=ffffff&title_color=111111&text_color=333333&icon_color=00a7c7&border_color=111111" alt="AegisCore repository card" />
   </a>
 </p>
 
@@ -114,8 +114,8 @@ To be honest, I really like TypeScript; the stack I use most often in my day-to-
 ## Stats Roll
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Lamarq7eYT&show_icons=true&bg_color=ffffff&title_color=111111&text_color=333333&icon_color=ff2d6b&border_color=111111&hide_border=false&count_private=true" alt="Lamarq7eYT GitHub stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lamarq7eYT&layout=compact&bg_color=ffffff&title_color=111111&text_color=333333&border_color=111111&langs_count=12" alt="Lamarq7eYT top languages" />
+  <img height="180em" src="https://github-readme-stats-rust-tau-40.vercel.app/api?username=Lamarq7eYT&show_icons=true&bg_color=ffffff&title_color=111111&text_color=333333&icon_color=ff2d6b&border_color=111111&hide_border=false&count_private=true" alt="Lamarq7eYT GitHub stats" />
+  <img height="180em" src="https://github-readme-stats-rust-tau-40.vercel.app/api/top-langs/?username=Lamarq7eYT&layout=compact&bg_color=ffffff&title_color=111111&text_color=333333&border_color=111111&langs_count=12" alt="Lamarq7eYT top languages" />
 </p>
 
 <p align="center">
