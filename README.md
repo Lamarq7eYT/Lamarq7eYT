@@ -30,7 +30,7 @@
 ```ts
 const llew = {
   github: "Lamarq7eYT",
-  theme: "frame-by-frame ink animation",
+  theme: "ink animation",
   role: "Full-Stack Developer",
   languages: [
     "Python",
@@ -47,11 +47,10 @@ const llew = {
   web: ["HTML5", "CSS3", "Node.js", "major JS/TS frameworks"],
   data: ["SQL", "PostgreSQL", "MySQL", "SQLite", "SQL Server"],
   tools: ["Docker", "Git", "GitHub CLI", "Linux", "VS Code", "Visual Studio"],
-  signature: "build each project frame by frame until it moves",
+  signature: "If you're going to see one of my works, be careful with your emotions",
 };
 ```
-
-I build projects like animation: a rough frame, a cleaner frame, a working frame, then a polished scene. My strongest current direction is full-stack security with TypeScript, Rust, systems thinking, and visual interfaces that do not feel generic.
+To be honest, I really like TypeScript; the stack I use most often in my day-to-day work is TypeScript, so you'll see a lot of TypeScript here.
 
 <p align="center">
   <img src="./ink-divider.svg" alt="Animated ink divider" width="860" />
