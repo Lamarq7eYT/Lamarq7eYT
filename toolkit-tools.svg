@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 300" width="860" height="300" role="img" aria-labelledby="title desc">
+  <title id="title">Web data tools and motion toolkit reel</title>
+  <desc id="desc">Custom film and ink SVG badges for web, data, tools, and motion stack.</desc>
+  <defs>
+    <style>
+      .bg{fill:#050505}.paper{fill:#ffffff}.ink{fill:#ffffff;stroke:#050505;stroke-width:2}.card{fill:#ffffff;stroke:#050505;stroke-width:2}
+      .title{font-family:'Courier New',Courier,monospace;font-size:18px;font-weight:900;letter-spacing:3px;fill:#ffffff}
+      .name{font-family:'Courier New',Courier,monospace;font-size:13px;font-weight:900;letter-spacing:1px;fill:#050505}
+      .icon{font-family:'Courier New',Courier,monospace;font-size:18px;font-weight:900}
+      .small{font-family:'Courier New',Courier,monospace;font-size:9px;font-weight:900;fill:#ffffff;letter-spacing:2px}
+      @keyframes lift{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}@keyframes pass{0%{transform:translateX(-230px);opacity:0}25%,75%{opacity:.65}100%{transform:translateX(900px);opacity:0}}
+      .a1{animation:lift 3s steps(2,end) infinite}.a2{animation:lift 3s steps(2,end) .18s infinite}.a3{animation:lift 3s steps(2,end) .36s infinite}.a4{animation:lift 3s steps(2,end) .54s infinite}.a5{animation:lift 3s steps(2,end) .72s infinite}.wipe{animation:pass 5.4s linear infinite}
+    </style>
+  </defs>
+  <rect class="bg" width="860" height="300"/>
+  <path class="paper" d="M0 0H860V24C782 15 731 35 652 22C574 9 507 35 430 21C352 8 291 8 219 23C142 40 69 14 0 30Z"/>
+  <path class="paper" d="M0 274C78 284 139 262 218 276C295 290 355 269 430 279C509 291 574 267 652 278C733 289 790 276 860 268V300H0Z"/>
+  <rect class="paper" x="20" y="40" width="820" height="2" opacity=".65"/><rect class="paper" x="20" y="248" width="820" height="2" opacity=".65"/>
+  <g class="wipe"><path class="paper" d="M20 106C76 85 119 124 177 101C234 79 280 122 338 98V142C273 163 235 118 174 146C112 174 75 129 20 151Z" opacity=".14"/></g>
+  <text class="title" x="430" y="31" text-anchor="middle">WEB / DATA / TOOLS / MOTION</text>
+  <text class="small" x="430" y="282" text-anchor="middle">HTML5 / CSS3 / SQL / DATABASES / DOCKER / GIT / GITHUB / LINUX / EDITORS / THREE / WEBGL / BLENDER</text>
+  <g transform="translate(44 58)">
+    <g class="a1"><rect class="card" x="0" y="0" width="104" height="42" rx="4"/><rect class="ink" x="0" y="0" width="38" height="42" rx="4"/><text class="icon" x="19" y="28" text-anchor="middle" fill="#E34F26">5</text><text class="name" x="72" y="27" text-anchor="middle">HTML5</text></g>
+    <g class="a2"><rect class="card" x="112" y="0" width="100" height="42" rx="4"/><rect class="ink" x="112" y="0" width="38" height="42" rx="4"/><text class="icon" x="131" y="28" text-anchor="middle" fill="#1572B6">3</text><text class="name" x="181" y="27" text-anchor="middle">CSS3</text></g>
+    <g class="a3"><rect class="card" x="220" y="0" width="96" height="42" rx="4"/><rect class="ink" x="220" y="0" width="38" height="42" rx="4"/><text class="icon" x="239" y="28" text-anchor="middle" fill="#4479A1">DB</text><text class="name" x="288" y="27" text-anchor="middle">SQL</text></g>
+    <g class="a4"><rect class="card" x="324" y="0" width="140" height="42" rx="4"/><rect class="ink" x="324" y="0" width="38" height="42" rx="4"/><text class="icon" x="343" y="28" text-anchor="middle" fill="#4169E1">Pg</text><text class="name" x="412" y="27" text-anchor="middle">POSTGRES</text></g>
+    <g class="a5"><rect class="card" x="472" y="0" width="112" height="42" rx="4"/><rect class="ink" x="472" y="0" width="38" height="42" rx="4"/><text class="icon" x="491" y="28" text-anchor="middle" fill="#4479A1">My</text><text class="name" x="548" y="27" text-anchor="middle">MYSQL</text></g>
+    <g class="a1"><rect class="card" x="592" y="0" width="112" height="42" rx="4"/><rect class="ink" x="592" y="0" width="38" height="42" rx="4"/><text class="icon" x="611" y="28" text-anchor="middle" fill="#003B57">Sq</text><text class="name" x="668" y="27" text-anchor="middle">SQLITE</text></g>
+    <g class="a2"><rect class="card" x="0" y="54" width="132" height="42" rx="4"/><rect class="ink" x="0" y="54" width="38" height="42" rx="4"/><text class="icon" x="19" y="82" text-anchor="middle" fill="#CC2927">MS</text><text class="name" x="86" y="81" text-anchor="middle">SQL SERVER</text></g>
+    <g class="a3"><rect class="card" x="140" y="54" width="116" height="42" rx="4"/><rect class="ink" x="140" y="54" width="38" height="42" rx="4"/><text class="icon" x="159" y="82" text-anchor="middle" fill="#2496ED">Dk</text><text class="name" x="218" y="81" text-anchor="middle">DOCKER</text></g>
+    <g class="a4"><rect class="card" x="264" y="54" width="96" height="42" rx="4"/><rect class="ink" x="264" y="54" width="38" height="42" rx="4"/><text class="icon" x="283" y="82" text-anchor="middle" fill="#F05032">Gt</text><text class="name" x="332" y="81" text-anchor="middle">GIT</text></g>
+    <g class="a5"><rect class="card" x="368" y="54" width="116" height="42" rx="4"/><rect class="ink" x="368" y="54" width="38" height="42" rx="4"/><text class="icon" x="387" y="82" text-anchor="middle" fill="#050505">GH</text><text class="name" x="446" y="81" text-anchor="middle">GITHUB</text></g>
+    <g class="a1"><rect class="card" x="492" y="54" width="134" height="42" rx="4"/><rect class="ink" x="492" y="54" width="38" height="42" rx="4"/><text class="icon" x="511" y="82" text-anchor="middle" fill="#050505">gh</text><text class="name" x="578" y="81" text-anchor="middle">GITHUB CLI</text></g>
+    <g class="a2"><rect class="card" x="634" y="54" width="104" height="42" rx="4"/><rect class="ink" x="634" y="54" width="38" height="42" rx="4"/><text class="icon" x="653" y="82" text-anchor="middle" fill="#F69220">pn</text><text class="name" x="706" y="81" text-anchor="middle">PNPM</text></g>
+    <g class="a3"><rect class="card" x="0" y="108" width="96" height="42" rx="4"/><rect class="ink" x="0" y="108" width="38" height="42" rx="4"/><text class="icon" x="19" y="136" text-anchor="middle" fill="#CB3837">n</text><text class="name" x="68" y="135" text-anchor="middle">NPM</text></g>
+    <g class="a4"><rect class="card" x="104" y="108" width="108" height="42" rx="4"/><rect class="ink" x="104" y="108" width="38" height="42" rx="4"/><text class="icon" x="123" y="136" text-anchor="middle" fill="#FCC624">T</text><text class="name" x="178" y="135" text-anchor="middle">LINUX</text></g>
+    <g class="a5"><rect class="card" x="220" y="108" width="120" height="42" rx="4"/><rect class="ink" x="220" y="108" width="38" height="42" rx="4"/><text class="icon" x="239" y="136" text-anchor="middle" fill="#007ACC">VS</text><text class="name" x="300" y="135" text-anchor="middle">VS CODE</text></g>
+    <g class="a1"><rect class="card" x="348" y="108" width="150" height="42" rx="4"/><rect class="ink" x="348" y="108" width="38" height="42" rx="4"/><text class="icon" x="367" y="136" text-anchor="middle" fill="#5C2D91">VS</text><text class="name" x="442" y="135" text-anchor="middle">VISUAL STUDIO</text></g>
+    <g class="a2"><rect class="card" x="506" y="108" width="120" height="42" rx="4"/><rect class="ink" x="506" y="108" width="38" height="42" rx="4"/><text class="icon" x="525" y="136" text-anchor="middle" fill="#050505">3</text><text class="name" x="586" y="135" text-anchor="middle">THREE.JS</text></g>
+    <g class="a3"><rect class="card" x="634" y="108" width="112" height="42" rx="4"/><rect class="ink" x="634" y="108" width="38" height="42" rx="4"/><text class="icon" x="653" y="136" text-anchor="middle" fill="#990000">GL</text><text class="name" x="710" y="135" text-anchor="middle">WEBGL</text></g>
+    <g class="a4"><rect class="card" x="0" y="162" width="120" height="42" rx="4"/><rect class="ink" x="0" y="162" width="38" height="42" rx="4"/><text class="icon" x="19" y="190" text-anchor="middle" fill="#E87D0D">B</text><text class="name" x="80" y="189" text-anchor="middle">BLENDER</text></g>
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 218" width="860" height="218" role="img" aria-labelledby="title desc">
+  <title id="title">Languages toolkit reel</title>
+  <desc id="desc">Custom film and ink SVG badges for programming languages.</desc>
+  <defs>
+    <style>
+      .bg { fill: #050505; }
+      .paper { fill: #ffffff; }
+      .ink { fill: #ffffff; stroke: #050505; stroke-width: 2; }
+      .card { fill: #ffffff; stroke: #050505; stroke-width: 2; }
+      .title { font-family: 'Courier New', Courier, monospace; font-size: 18px; font-weight: 900; letter-spacing: 3px; fill: #ffffff; }
+      .name { font-family: 'Courier New', Courier, monospace; font-size: 14px; font-weight: 900; letter-spacing: 1.2px; fill: #050505; }
+      .icon { font-family: 'Courier New', Courier, monospace; font-size: 16px; font-weight: 900; }
+      .small { font-family: 'Courier New', Courier, monospace; font-size: 9px; font-weight: 900; fill: #ffffff; letter-spacing: 2px; }
+      @keyframes lift { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+      @keyframes pass { 0% { transform: translateX(-200px); opacity:0; } 25%,75% { opacity:.65; } 100% { transform: translateX(900px); opacity:0; } }
+      .a1 { animation: lift 3s steps(2,end) infinite; } .a2 { animation: lift 3s steps(2,end) .2s infinite; } .a3 { animation: lift 3s steps(2,end) .4s infinite; }
+      .a4 { animation: lift 3s steps(2,end) .6s infinite; } .a5 { animation: lift 3s steps(2,end) .8s infinite; }
+      .wipe { animation: pass 4.8s linear infinite; }
+    </style>
+  </defs>
+  <rect class="bg" width="860" height="218"/>
+  <path class="paper" d="M0 0H860V22C790 14 730 33 650 21C573 9 504 32 430 20C354 8 292 8 220 22C141 38 72 13 0 28Z"/>
+  <path class="paper" d="M0 194C75 203 138 185 215 198C292 212 354 190 430 201C511 213 574 190 650 199C728 210 791 195 860 188V218H0Z"/>
+  <rect class="paper" x="20" y="40" width="820" height="2" opacity=".65"/>
+  <rect class="paper" x="20" y="174" width="820" height="2" opacity=".65"/>
+  <g class="wipe"><path class="paper" d="M20 76C68 58 111 91 159 72C208 53 250 91 299 68V107C244 124 211 88 158 111C105 134 66 100 20 118Z" opacity=".14"/></g>
+  <text class="title" x="430" y="31" text-anchor="middle">LANGUAGES / FILM TOOLKIT</text>
+  <text class="small" x="430" y="202" text-anchor="middle">PYTHON / JAVASCRIPT / TYPESCRIPT / JAVA / C++ / C# / RUST / PHP / LUA / ASSEMBLY</text>
+
+  <g transform="translate(52 58)">
+    <g class="a1"><rect class="card" x="0" y="0" width="132" height="42" rx="4"/><rect class="ink" x="0" y="0" width="38" height="42" rx="4"/><text class="icon" x="19" y="28" text-anchor="middle" fill="#3776AB">Py</text><text class="name" x="85" y="27" text-anchor="middle">PYTHON</text></g>
+    <g class="a2"><rect class="card" x="140" y="0" width="154" height="42" rx="4"/><rect class="ink" x="140" y="0" width="38" height="42" rx="4"/><text class="icon" x="159" y="28" text-anchor="middle" fill="#F7DF1E">JS</text><text class="name" x="236" y="27" text-anchor="middle">JAVASCRIPT</text></g>
+    <g class="a3"><rect class="card" x="302" y="0" width="154" height="42" rx="4"/><rect class="ink" x="302" y="0" width="38" height="42" rx="4"/><text class="icon" x="321" y="28" text-anchor="middle" fill="#3178C6">TS</text><text class="name" x="398" y="27" text-anchor="middle">TYPESCRIPT</text></g>
+    <g class="a4"><rect class="card" x="464" y="0" width="120" height="42" rx="4"/><rect class="ink" x="464" y="0" width="38" height="42" rx="4"/><text class="icon" x="483" y="28" text-anchor="middle" fill="#E76F00">J</text><text class="name" x="543" y="27" text-anchor="middle">JAVA</text></g>
+    <g class="a5"><rect class="card" x="592" y="0" width="110" height="42" rx="4"/><rect class="ink" x="592" y="0" width="38" height="42" rx="4"/><text class="icon" x="611" y="28" text-anchor="middle" fill="#00599C">C+</text><text class="name" x="665" y="27" text-anchor="middle">C++</text></g>
+    <g class="a1"><rect class="card" x="710" y="0" width="104" height="42" rx="4"/><rect class="ink" x="710" y="0" width="38" height="42" rx="4"/><text class="icon" x="729" y="28" text-anchor="middle" fill="#512BD4">C#</text><text class="name" x="779" y="27" text-anchor="middle">C#</text></g>
+    <g class="a2"><rect class="card" x="0" y="54" width="122" height="42" rx="4"/><rect class="ink" x="0" y="54" width="38" height="42" rx="4"/><text class="icon" x="19" y="82" text-anchor="middle" fill="#DEA584">R</text><text class="name" x="80" y="81" text-anchor="middle">RUST</text></g>
+    <g class="a3"><rect class="card" x="130" y="54" width="104" height="42" rx="4"/><rect class="ink" x="130" y="54" width="38" height="42" rx="4"/><text class="icon" x="149" y="82" text-anchor="middle" fill="#777BB4">php</text><text class="name" x="201" y="81" text-anchor="middle">PHP</text></g>
+    <g class="a4"><rect class="card" x="242" y="54" width="106" height="42" rx="4"/><rect class="ink" x="242" y="54" width="38" height="42" rx="4"/><text class="icon" x="261" y="82" text-anchor="middle" fill="#2C2D72">Lua</text><text class="name" x="315" y="81" text-anchor="middle">LUA</text></g>
+    <g class="a5"><rect class="card" x="356" y="54" width="152" height="42" rx="4"/><rect class="ink" x="356" y="54" width="38" height="42" rx="4"/><text class="icon" x="375" y="82" text-anchor="middle" fill="#6E4C13">ASM</text><text class="name" x="451" y="81" text-anchor="middle">ASSEMBLY</text></g>
+  </g>
+</svg>

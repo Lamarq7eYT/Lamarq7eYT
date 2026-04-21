@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 270" width="860" height="270" role="img" aria-labelledby="title desc">
+  <title id="title">Framework toolkit reel</title>
+  <desc id="desc">Custom film and ink SVG badges for JavaScript and TypeScript frameworks.</desc>
+  <defs>
+    <style>
+      .bg { fill:#050505; } .paper { fill:#ffffff; } .ink { fill:#ffffff; stroke:#050505; stroke-width:2; } .card { fill:#ffffff; stroke:#050505; stroke-width:2; }
+      .title { font-family:'Courier New', Courier, monospace; font-size:18px; font-weight:900; letter-spacing:3px; fill:#ffffff; }
+      .name { font-family:'Courier New', Courier, monospace; font-size:13px; font-weight:900; letter-spacing:1px; fill:#050505; }
+      .icon { font-family:'Courier New', Courier, monospace; font-size:18px; font-weight:900; }
+      .small { font-family:'Courier New', Courier, monospace; font-size:9px; font-weight:900; fill:#ffffff; letter-spacing:2px; }
+      @keyframes lift { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-4px)} }
+      @keyframes pass { 0%{transform:translateX(-220px);opacity:0} 25%,75%{opacity:.65} 100%{transform:translateX(900px);opacity:0} }
+      .a1{animation:lift 3s steps(2,end) infinite}.a2{animation:lift 3s steps(2,end) .18s infinite}.a3{animation:lift 3s steps(2,end) .36s infinite}.a4{animation:lift 3s steps(2,end) .54s infinite}.a5{animation:lift 3s steps(2,end) .72s infinite}
+      .wipe{animation:pass 5s linear infinite}
+    </style>
+  </defs>
+  <rect class="bg" width="860" height="270"/>
+  <path class="paper" d="M0 0H860V24C782 15 731 35 652 22C574 9 507 35 430 21C352 8 291 8 219 23C142 40 69 14 0 30Z"/>
+  <path class="paper" d="M0 244C78 254 139 232 218 246C295 260 355 239 430 249C509 261 574 237 652 248C733 259 790 246 860 238V270H0Z"/>
+  <rect class="paper" x="20" y="40" width="820" height="2" opacity=".65"/>
+  <rect class="paper" x="20" y="220" width="820" height="2" opacity=".65"/>
+  <g class="wipe"><path class="paper" d="M20 96C76 75 119 114 177 91C234 69 280 112 338 88V132C273 153 235 108 174 136C112 164 75 119 20 141Z" opacity=".14"/></g>
+  <text class="title" x="430" y="31" text-anchor="middle">JAVASCRIPT / TYPESCRIPT FRAMEWORKS</text>
+  <text class="small" x="430" y="252" text-anchor="middle">NODE / REACT / NEXT / VUE / NUXT / ANGULAR / SVELTE / ASTRO / REMIX / EXPRESS / NEST / FASTIFY / VITE / TAILWIND</text>
+  <g transform="translate(45 58)">
+    <g class="a1"><rect class="card" x="0" y="0" width="120" height="42" rx="4"/><rect class="ink" x="0" y="0" width="38" height="42" rx="4"/><text class="icon" x="19" y="28" text-anchor="middle" fill="#339933">Nd</text><text class="name" x="80" y="27" text-anchor="middle">NODE.JS</text></g>
+    <g class="a2"><rect class="card" x="128" y="0" width="112" height="42" rx="4"/><rect class="ink" x="128" y="0" width="38" height="42" rx="4"/><text class="icon" x="147" y="28" text-anchor="middle" fill="#61DAFB">Rx</text><text class="name" x="203" y="27" text-anchor="middle">REACT</text></g>
+    <g class="a3"><rect class="card" x="248" y="0" width="120" height="42" rx="4"/><rect class="ink" x="248" y="0" width="38" height="42" rx="4"/><text class="icon" x="267" y="28" text-anchor="middle" fill="#050505">N</text><text class="name" x="326" y="27" text-anchor="middle">NEXT.JS</text></g>
+    <g class="a4"><rect class="card" x="376" y="0" width="116" height="42" rx="4"/><rect class="ink" x="376" y="0" width="38" height="42" rx="4"/><text class="icon" x="395" y="28" text-anchor="middle" fill="#4FC08D">V</text><text class="name" x="454" y="27" text-anchor="middle">VUE.JS</text></g>
+    <g class="a5"><rect class="card" x="500" y="0" width="108" height="42" rx="4"/><rect class="ink" x="500" y="0" width="38" height="42" rx="4"/><text class="icon" x="519" y="28" text-anchor="middle" fill="#00DC82">Nu</text><text class="name" x="574" y="27" text-anchor="middle">NUXT</text></g>
+    <g class="a1"><rect class="card" x="616" y="0" width="126" height="42" rx="4"/><rect class="ink" x="616" y="0" width="38" height="42" rx="4"/><text class="icon" x="635" y="28" text-anchor="middle" fill="#DD0031">A</text><text class="name" x="700" y="27" text-anchor="middle">ANGULAR</text></g>
+    <g class="a2"><rect class="card" x="0" y="54" width="116" height="42" rx="4"/><rect class="ink" x="0" y="54" width="38" height="42" rx="4"/><text class="icon" x="19" y="82" text-anchor="middle" fill="#FF3E00">S</text><text class="name" x="80" y="81" text-anchor="middle">SVELTE</text></g>
+    <g class="a3"><rect class="card" x="124" y="54" width="132" height="42" rx="4"/><rect class="ink" x="124" y="54" width="38" height="42" rx="4"/><text class="icon" x="143" y="82" text-anchor="middle" fill="#FF3E00">S</text><text class="name" x="209" y="81" text-anchor="middle">SVELTEKIT</text></g>
+    <g class="a4"><rect class="card" x="264" y="54" width="108" height="42" rx="4"/><rect class="ink" x="264" y="54" width="38" height="42" rx="4"/><text class="icon" x="283" y="82" text-anchor="middle" fill="#BC52EE">A</text><text class="name" x="338" y="81" text-anchor="middle">ASTRO</text></g>
+    <g class="a5"><rect class="card" x="380" y="54" width="110" height="42" rx="4"/><rect class="ink" x="380" y="54" width="38" height="42" rx="4"/><text class="icon" x="399" y="82" text-anchor="middle" fill="#E10098">R</text><text class="name" x="456" y="81" text-anchor="middle">REMIX</text></g>
+    <g class="a1"><rect class="card" x="498" y="54" width="134" height="42" rx="4"/><rect class="ink" x="498" y="54" width="38" height="42" rx="4"/><text class="icon" x="517" y="82" text-anchor="middle" fill="#050505">ex</text><text class="name" x="584" y="81" text-anchor="middle">EXPRESS</text></g>
+    <g class="a2"><rect class="card" x="640" y="54" width="116" height="42" rx="4"/><rect class="ink" x="640" y="54" width="38" height="42" rx="4"/><text class="icon" x="659" y="82" text-anchor="middle" fill="#E0234E">N</text><text class="name" x="718" y="81" text-anchor="middle">NESTJS</text></g>
+    <g class="a3"><rect class="card" x="0" y="108" width="128" height="42" rx="4"/><rect class="ink" x="0" y="108" width="38" height="42" rx="4"/><text class="icon" x="19" y="136" text-anchor="middle" fill="#050505">F</text><text class="name" x="83" y="135" text-anchor="middle">FASTIFY</text></g>
+    <g class="a4"><rect class="card" x="136" y="108" width="104" height="42" rx="4"/><rect class="ink" x="136" y="108" width="38" height="42" rx="4"/><text class="icon" x="155" y="136" text-anchor="middle" fill="#646CFF">V</text><text class="name" x="207" y="135" text-anchor="middle">VITE</text></g>
+    <g class="a5"><rect class="card" x="248" y="108" width="148" height="42" rx="4"/><rect class="ink" x="248" y="108" width="38" height="42" rx="4"/><text class="icon" x="267" y="136" text-anchor="middle" fill="#06B6D4">~</text><text class="name" x="341" y="135" text-anchor="middle">TAILWIND</text></g>
+  </g>
+</svg>
