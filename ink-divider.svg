@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 72" width="860" height="72" role="img" aria-labelledby="title desc">
+  <title id="title">Animated ink divider</title>
+  <desc id="desc">Black and white ink brush divider for a frame-by-frame themed GitHub profile.</desc>
+  <defs>
+    <style>
+      .paper { fill: #ffffff; }
+      .ink { fill: #050505; }
+      .line { stroke: #050505; stroke-width: 2; stroke-linecap: round; fill: none; }
+      .small { font-family: 'Courier New', Courier, monospace; font-size: 11px; font-weight: 800; fill: #050505; letter-spacing: 3px; }
+      @keyframes slide {
+        0% { transform: translateX(-180px); opacity: 0; }
+        20% { opacity: .9; }
+        80% { opacity: .9; }
+        100% { transform: translateX(900px); opacity: 0; }
+      }
+      @keyframes blink {
+        0%, 100% { opacity: .25; }
+        50% { opacity: 1; }
+      }
+      .wipe { animation: slide 4.2s linear infinite; }
+      .b1 { animation: blink 2.1s steps(2, end) infinite; }
+      .b2 { animation: blink 2.1s steps(2, end) .35s infinite; }
+      .b3 { animation: blink 2.1s steps(2, end) .70s infinite; }
+    </style>
+  </defs>
+  <rect class="paper" width="860" height="72"/>
+  <path class="ink" d="M0 31C62 14 122 40 184 25C251 9 309 41 374 25C437 9 494 39 558 25C622 11 678 38 740 25C790 14 827 19 860 24V42C807 52 760 34 704 47C644 61 587 35 529 49C464 65 409 34 346 50C287 65 225 37 166 51C101 66 54 47 0 56Z"/>
+  <path class="line" d="M24 20C93 39 137 12 206 32C266 50 321 16 389 34C452 50 516 19 584 34C644 48 703 24 769 36C801 42 829 39 848 34"/>
+  <g class="wipe">
+    <path class="ink" d="M0 28C38 17 74 36 111 25C153 13 187 35 224 22V47C181 56 151 36 110 49C70 61 35 43 0 52Z"/>
+  </g>
+  <circle class="ink b1" cx="118" cy="18" r="4"/>
+  <circle class="ink b2" cx="422" cy="54" r="5"/>
+  <circle class="ink b3" cx="734" cy="16" r="4"/>
+  <text class="small" x="430" y="43" text-anchor="middle">FRAME A FRAME / INK CUT</text>
+</svg>

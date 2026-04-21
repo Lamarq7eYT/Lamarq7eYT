@@ -1,30 +1,34 @@
 <p align="center">
-  <img src="./glitch-header.svg" alt="Lamarq7eYT - Frame a Frame Developer Profile" width="860" />
+  <img src="./glitch-header.svg" alt="Lamarq7eYT - Frame a Frame ink profile" width="860" />
 </p>
 
 <p align="center">
   <a href="https://github.com/Lamarq7eYT?tab=followers">
-    <img src="https://img.shields.io/github/followers/Lamarq7eYT?label=Followers&style=for-the-badge&color=00ff88&labelColor=0d1117&logo=github" alt="GitHub followers" />
+    <img src="https://img.shields.io/github/followers/Lamarq7eYT?label=Followers&style=for-the-badge&color=ffffff&labelColor=000000&logo=github&logoColor=ffffff" alt="GitHub followers" />
   </a>
   <a href="https://github.com/Lamarq7eYT?tab=repositories">
-    <img src="https://img.shields.io/badge/Theme-Frame%20a%20Frame-00e5ff?style=for-the-badge&labelColor=0d1117" alt="Frame a Frame theme" />
+    <img src="https://img.shields.io/badge/Theme-Frame%20a%20Frame-ffffff?style=for-the-badge&labelColor=000000" alt="Frame a Frame theme" />
   </a>
   <a href="https://github.com/Lamarq7eYT?tab=repositories">
-    <img src="https://img.shields.io/badge/Focus-Security%20%2B%20Full--Stack-ff2d6b?style=for-the-badge&labelColor=0d1117" alt="Security and full-stack focus" />
+    <img src="https://img.shields.io/badge/Ink-Black%20%2F%20White-000000?style=for-the-badge&labelColor=ffffff&color=000000" alt="Black and white ink theme" />
   </a>
-  <img src="https://komarev.com/ghpvc/?username=Lamarq7eYT&style=for-the-badge&color=00ff88&labelColor=0d1117&label=Profile+Views" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=Lamarq7eYT&style=for-the-badge&color=000000&labelColor=ffffff&label=Profile+Views" alt="Profile views" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1200&color=00FF88&center=true&vCenter=true&width=760&lines=Frame+01+-+Full-Stack+Developer;Frame+02+-+Security+Engineering+Student;Frame+03+-+TypeScript+%2B+Rust+%2B+Python;Frame+04+-+Defensive+Developer+Tools;Frame+05+-+3D%2C+WebGL%2C+and+Motion" alt="Frame a Frame typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=22&pause=950&color=111111&center=true&vCenter=true&width=780&lines=Frame+01+-+Full-Stack+Developer;Frame+02+-+Security+Engineering+Student;Frame+03+-+Python+%2B+JS%2FTS+%2B+Rust+%2B+Assembly;Frame+04+-+Major+JavaScript%2FTypeScript+frameworks;Frame+05+-+Black+ink%2C+white+frames%2C+colored+motion" alt="Frame a Frame typing animation" />
+</p>
+
+<p align="center">
+  <img src="./ink-divider.svg" alt="Animated ink divider" width="860" />
 </p>
 
 <table align="center">
   <tr>
-    <td align="center"><strong>FRAME 01</strong><br />plan</td>
-    <td align="center"><strong>FRAME 02</strong><br />build</td>
-    <td align="center"><strong>FRAME 03</strong><br />test</td>
-    <td align="center"><strong>FRAME 04</strong><br />polish</td>
+    <td align="center"><strong>FRAME 01</strong><br />sketch</td>
+    <td align="center"><strong>FRAME 02</strong><br />code</td>
+    <td align="center"><strong>FRAME 03</strong><br />motion</td>
+    <td align="center"><strong>FRAME 04</strong><br />security</td>
     <td align="center"><strong>FRAME 05</strong><br />ship</td>
   </tr>
 </table>
@@ -36,27 +40,41 @@
 ```ts
 const llew = {
   github: "Lamarq7eYT",
-  style: "frame-by-frame builder",
+  theme: "frame-by-frame ink animation",
   role: "Full-Stack Developer",
-  focus: ["security engineering", "developer tools", "interactive web"],
-  stack: ["TypeScript", "Rust", "Python", "Node.js", "React", "SQL"],
-  learning: ["3D modeling", "WebGL", "defensive app security"],
-  signature: "turn ideas into scenes, scenes into tools, tools into shipped projects",
+  languages: [
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "Java",
+    "C++",
+    "C#",
+    "Rust",
+    "PHP",
+    "Lua",
+    "Assembly",
+  ],
+  web: ["HTML5", "CSS3", "Node.js", "major JS/TS frameworks"],
+  data: ["SQL", "PostgreSQL", "MySQL", "SQLite", "SQL Server"],
+  tools: ["Docker", "Git", "GitHub CLI", "Linux", "VS Code", "Visual Studio"],
+  signature: "build each project frame by frame until it moves",
 };
 ```
 
-I like building projects as sequences: first the rough sketch, then the system, then the visual pass, then the polish. The current main direction is defensive security with TypeScript + Rust, wrapped in interfaces that feel alive instead of generic.
+I build projects like animation: a rough frame, a cleaner frame, a working frame, then a polished scene. My strongest current direction is full-stack security with TypeScript, Rust, systems thinking, and visual interfaces that do not feel generic.
 
----
+<p align="center">
+  <img src="./ink-divider.svg" alt="Animated ink divider" width="860" />
+</p>
 
 ## Frame 02 - Featured Scenes
 
 <p align="center">
   <a href="https://github.com/Lamarq7eYT/AegisHub">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Lamarq7eYT&repo=AegisHub&theme=github_dark&bg_color=0d1117&border_color=00ff88&icon_color=00ff88&title_color=00ff88&text_color=c9d1d9" alt="AegisHub repository card" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Lamarq7eYT&repo=AegisHub&bg_color=ffffff&title_color=111111&text_color=333333&icon_color=ff2d6b&border_color=111111" alt="AegisHub repository card" />
   </a>
   <a href="https://github.com/Lamarq7eYT/AegisCore">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Lamarq7eYT&repo=AegisCore&theme=github_dark&bg_color=0d1117&border_color=00e5ff&icon_color=00e5ff&title_color=00e5ff&text_color=c9d1d9" alt="AegisCore repository card" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Lamarq7eYT&repo=AegisCore&bg_color=ffffff&title_color=111111&text_color=333333&icon_color=00a7c7&border_color=111111" alt="AegisCore repository card" />
   </a>
 </p>
 
@@ -64,79 +82,119 @@ I like building projects as sequences: first the rough sketch, then the system, 
 | --- | --- | --- | --- |
 | `001` | [AegisHub](https://github.com/Lamarq7eYT/AegisHub) | Security analysis for GitHub repos, secrets detection, CLI workflow, dashboard thinking | Rust, TypeScript, React |
 | `002` | [AegisCore](https://github.com/Lamarq7eYT/AegisCore) | Defensive web platform baseline with API, admin demo, observability, and risk scoring | TypeScript, Rust, Fastify, React |
-| `003` | [HackerPage](https://github.com/Lamarq7eYT/HackerPage) | Interactive educational web experience about hacker history and security incidents | HTML, CSS, 3D assets |
+| `003` | [HackerPage](https://github.com/Lamarq7eYT/HackerPage) | Interactive educational web experience about hacker history and security incidents | HTML5, CSS3, 3D assets |
 | `004` | [Portf-lio](https://github.com/Lamarq7eYT/Portf-lio) | Cinematic portfolio with motion, scenes, embedded demos, and visual storytelling | React, Vite, TypeScript |
 
 <p align="center">
   <a href="https://github.com/Lamarq7eYT/AegisHub/stargazers">
-    <img src="https://img.shields.io/github/stars/Lamarq7eYT/AegisHub?style=for-the-badge&label=AegisHub%20Stars&color=00ff88&labelColor=0d1117&logo=github" alt="AegisHub stars" />
+    <img src="https://img.shields.io/github/stars/Lamarq7eYT/AegisHub?style=for-the-badge&label=AegisHub%20Stars&color=ffffff&labelColor=000000&logo=github&logoColor=ffffff" alt="AegisHub stars" />
   </a>
   <a href="https://github.com/Lamarq7eYT/AegisCore/stargazers">
-    <img src="https://img.shields.io/github/stars/Lamarq7eYT/AegisCore?style=for-the-badge&label=AegisCore%20Stars&color=00e5ff&labelColor=0d1117&logo=github" alt="AegisCore stars" />
+    <img src="https://img.shields.io/github/stars/Lamarq7eYT/AegisCore?style=for-the-badge&label=AegisCore%20Stars&color=ffffff&labelColor=000000&logo=github&logoColor=ffffff" alt="AegisCore stars" />
   </a>
   <a href="https://github.com/Lamarq7eYT/HackerPage/stargazers">
-    <img src="https://img.shields.io/github/stars/Lamarq7eYT/HackerPage?style=for-the-badge&label=HackerPage%20Stars&color=ff2d6b&labelColor=0d1117&logo=github" alt="HackerPage stars" />
+    <img src="https://img.shields.io/github/stars/Lamarq7eYT/HackerPage?style=for-the-badge&label=HackerPage%20Stars&color=ffffff&labelColor=000000&logo=github&logoColor=ffffff" alt="HackerPage stars" />
   </a>
 </p>
 
----
+<p align="center">
+  <img src="./ink-divider.svg" alt="Animated ink divider" width="860" />
+</p>
 
 ## Frame 03 - Toolkit
 
 ### Languages
 
 <p>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=0d1117" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="C#" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Python-ffffff?style=for-the-badge&logo=python&logoColor=111111&labelColor=000000" alt="Python" />
+  <img src="https://img.shields.io/badge/JavaScript-ffffff?style=for-the-badge&logo=javascript&logoColor=111111&labelColor=000000" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-ffffff?style=for-the-badge&logo=typescript&logoColor=111111&labelColor=000000" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Java-ffffff?style=for-the-badge&logo=openjdk&logoColor=111111&labelColor=000000" alt="Java" />
+  <img src="https://img.shields.io/badge/C++-ffffff?style=for-the-badge&logo=cplusplus&logoColor=111111&labelColor=000000" alt="C++" />
+  <img src="https://img.shields.io/badge/C%23-ffffff?style=for-the-badge&logo=dotnet&logoColor=111111&labelColor=000000" alt="C#" />
+  <img src="https://img.shields.io/badge/Rust-ffffff?style=for-the-badge&logo=rust&logoColor=111111&labelColor=000000" alt="Rust" />
+  <img src="https://img.shields.io/badge/PHP-ffffff?style=for-the-badge&logo=php&logoColor=111111&labelColor=000000" alt="PHP" />
+  <img src="https://img.shields.io/badge/Lua-ffffff?style=for-the-badge&logo=lua&logoColor=111111&labelColor=000000" alt="Lua" />
+  <img src="https://img.shields.io/badge/Assembly-ffffff?style=for-the-badge&logo=assemblyscript&logoColor=111111&labelColor=000000" alt="Assembly" />
 </p>
 
-### Web, Backend, Motion
+### JavaScript and TypeScript Frameworks
 
 <p>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=0d1117" alt="React" />
-  <img src="https://img.shields.io/badge/Fastify-000000?style=for-the-badge&logo=fastify&logoColor=white" alt="Fastify" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
-  <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white" alt="Three.js" />
-  <img src="https://img.shields.io/badge/WebGL-990000?style=for-the-badge&logo=webgl&logoColor=white" alt="WebGL" />
-  <img src="https://img.shields.io/badge/Blender-E87D0D?style=for-the-badge&logo=blender&logoColor=white" alt="Blender" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/GitHub%20CLI-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub CLI" />
+  <img src="https://img.shields.io/badge/Node.js-ffffff?style=for-the-badge&logo=nodedotjs&logoColor=111111&labelColor=000000" alt="Node.js" />
+  <img src="https://img.shields.io/badge/React-ffffff?style=for-the-badge&logo=react&logoColor=111111&labelColor=000000" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-ffffff?style=for-the-badge&logo=nextdotjs&logoColor=111111&labelColor=000000" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Vue.js-ffffff?style=for-the-badge&logo=vuedotjs&logoColor=111111&labelColor=000000" alt="Vue.js" />
+  <img src="https://img.shields.io/badge/Nuxt-ffffff?style=for-the-badge&logo=nuxt&logoColor=111111&labelColor=000000" alt="Nuxt" />
+  <img src="https://img.shields.io/badge/Angular-ffffff?style=for-the-badge&logo=angular&logoColor=111111&labelColor=000000" alt="Angular" />
+  <img src="https://img.shields.io/badge/Svelte-ffffff?style=for-the-badge&logo=svelte&logoColor=111111&labelColor=000000" alt="Svelte" />
+  <img src="https://img.shields.io/badge/SvelteKit-ffffff?style=for-the-badge&logo=svelte&logoColor=111111&labelColor=000000" alt="SvelteKit" />
+  <img src="https://img.shields.io/badge/Astro-ffffff?style=for-the-badge&logo=astro&logoColor=111111&labelColor=000000" alt="Astro" />
+  <img src="https://img.shields.io/badge/Remix-ffffff?style=for-the-badge&logo=remix&logoColor=111111&labelColor=000000" alt="Remix" />
+  <img src="https://img.shields.io/badge/Express.js-ffffff?style=for-the-badge&logo=express&logoColor=111111&labelColor=000000" alt="Express.js" />
+  <img src="https://img.shields.io/badge/NestJS-ffffff?style=for-the-badge&logo=nestjs&logoColor=111111&labelColor=000000" alt="NestJS" />
+  <img src="https://img.shields.io/badge/Fastify-ffffff?style=for-the-badge&logo=fastify&logoColor=111111&labelColor=000000" alt="Fastify" />
+  <img src="https://img.shields.io/badge/Vite-ffffff?style=for-the-badge&logo=vite&logoColor=111111&labelColor=000000" alt="Vite" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-ffffff?style=for-the-badge&logo=tailwindcss&logoColor=111111&labelColor=000000" alt="Tailwind CSS" />
 </p>
 
----
+### Web, Data, Tools, Motion
+
+<p>
+  <img src="https://img.shields.io/badge/HTML5-ffffff?style=for-the-badge&logo=html5&logoColor=111111&labelColor=000000" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-ffffff?style=for-the-badge&logo=css3&logoColor=111111&labelColor=000000" alt="CSS3" />
+  <img src="https://img.shields.io/badge/SQL-ffffff?style=for-the-badge&logo=sqlite&logoColor=111111&labelColor=000000" alt="SQL" />
+  <img src="https://img.shields.io/badge/PostgreSQL-ffffff?style=for-the-badge&logo=postgresql&logoColor=111111&labelColor=000000" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/MySQL-ffffff?style=for-the-badge&logo=mysql&logoColor=111111&labelColor=000000" alt="MySQL" />
+  <img src="https://img.shields.io/badge/SQLite-ffffff?style=for-the-badge&logo=sqlite&logoColor=111111&labelColor=000000" alt="SQLite" />
+  <img src="https://img.shields.io/badge/SQL_Server-ffffff?style=for-the-badge&logo=microsoftsqlserver&logoColor=111111&labelColor=000000" alt="SQL Server" />
+  <img src="https://img.shields.io/badge/Docker-ffffff?style=for-the-badge&logo=docker&logoColor=111111&labelColor=000000" alt="Docker" />
+  <img src="https://img.shields.io/badge/Git-ffffff?style=for-the-badge&logo=git&logoColor=111111&labelColor=000000" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-ffffff?style=for-the-badge&logo=github&logoColor=111111&labelColor=000000" alt="GitHub" />
+  <img src="https://img.shields.io/badge/GitHub_CLI-ffffff?style=for-the-badge&logo=github&logoColor=111111&labelColor=000000" alt="GitHub CLI" />
+  <img src="https://img.shields.io/badge/pnpm-ffffff?style=for-the-badge&logo=pnpm&logoColor=111111&labelColor=000000" alt="pnpm" />
+  <img src="https://img.shields.io/badge/npm-ffffff?style=for-the-badge&logo=npm&logoColor=111111&labelColor=000000" alt="npm" />
+  <img src="https://img.shields.io/badge/Linux-ffffff?style=for-the-badge&logo=linux&logoColor=111111&labelColor=000000" alt="Linux" />
+  <img src="https://img.shields.io/badge/VS_Code-ffffff?style=for-the-badge&logo=visualstudiocode&logoColor=111111&labelColor=000000" alt="VS Code" />
+  <img src="https://img.shields.io/badge/Visual_Studio-ffffff?style=for-the-badge&logo=visualstudio&logoColor=111111&labelColor=000000" alt="Visual Studio" />
+  <img src="https://img.shields.io/badge/Three.js-ffffff?style=for-the-badge&logo=threedotjs&logoColor=111111&labelColor=000000" alt="Three.js" />
+  <img src="https://img.shields.io/badge/WebGL-ffffff?style=for-the-badge&logo=webgl&logoColor=111111&labelColor=000000" alt="WebGL" />
+  <img src="https://img.shields.io/badge/Blender-ffffff?style=for-the-badge&logo=blender&logoColor=111111&labelColor=000000" alt="Blender" />
+</p>
+
+<p align="center">
+  <img src="./ink-divider.svg" alt="Animated ink divider" width="860" />
+</p>
 
 ## Frame 04 - Stats Roll
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Lamarq7eYT&show_icons=true&theme=github_dark&bg_color=0d1117&border_color=00ff88&icon_color=00ff88&title_color=00ff88&text_color=c9d1d9&hide_border=false&count_private=true" alt="Lamarq7eYT GitHub stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lamarq7eYT&layout=compact&theme=github_dark&bg_color=0d1117&border_color=00e5ff&title_color=00e5ff&text_color=c9d1d9&langs_count=12" alt="Lamarq7eYT top languages" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Lamarq7eYT&show_icons=true&bg_color=ffffff&title_color=111111&text_color=333333&icon_color=ff2d6b&border_color=111111&hide_border=false&count_private=true" alt="Lamarq7eYT GitHub stats" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lamarq7eYT&layout=compact&bg_color=ffffff&title_color=111111&text_color=333333&border_color=111111&langs_count=12" alt="Lamarq7eYT top languages" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Lamarq7eYT&theme=github-dark-blue&background=0D1117&border=00ff88&ring=00ff88&fire=ff2d6b&currStreakLabel=00ff88&sideLabels=00e5ff&dates=888888&stroke=0d1117" alt="Lamarq7eYT GitHub streak" />
+  <img src="https://streak-stats.demolab.com?user=Lamarq7eYT&background=FFFFFF&border=111111&stroke=111111&ring=111111&fire=ff2d6b&currStreakNum=111111&sideNums=111111&currStreakLabel=111111&sideLabels=333333&dates=555555" alt="Lamarq7eYT GitHub streak" />
 </p>
 
----
+<p align="center">
+  <img src="./ink-divider.svg" alt="Animated ink divider" width="860" />
+</p>
 
 ## Frame 05 - Trophy Board
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Lamarq7eYT&theme=algolia&no-frame=true&margin-w=8&margin-h=8&column=4" alt="Lamarq7eYT GitHub profile trophies" />
+  <img src="https://github-profile-trophy.screw-hand.vercel.app/?username=Lamarq7eYT&theme=flat&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=4" alt="Lamarq7eYT GitHub profile trophies" />
 </p>
 
----
+<p align="center">
+  <img src="./ink-divider.svg" alt="Animated ink divider" width="860" />
+</p>
 
 ## Frame 06 - Activity Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Lamarq7eYT&bg_color=0d1117&color=00ff88&line=00ff88&point=ff2d6b&area=true&area_color=00ff8822&hide_border=true" alt="Lamarq7eYT activity graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Lamarq7eYT&bg_color=ffffff&color=111111&line=111111&point=ff2d6b&area=true&area_color=00000018&hide_border=false&border_color=111111" alt="Lamarq7eYT activity graph" />
 </p>
 
 ---
