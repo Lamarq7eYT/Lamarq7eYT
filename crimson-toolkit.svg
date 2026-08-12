@@ -1,29 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
-<rect width="1200" height="420" fill="#050505"/>
-<g font-family="monospace">
-<text x="60" y="55" fill="#ff1538" font-size="18" letter-spacing="3">TOOLKIT / LANGUAGE STATUS</text>
-<text x="60" y="95" fill="#f5f5f5" font-size="24" font-weight="700">WORKING KNOWLEDGE</text>
-<g font-size="19" fill="#d6d6d6">
-<rect x="60" y="120" width="180" height="48" rx="4" fill="#111" stroke="#2a2a2a"/><text x="82" y="151">PYTHON</text>
-<rect x="255" y="120" width="210" height="48" rx="4" fill="#111" stroke="#2a2a2a"/><text x="278" y="151">JAVASCRIPT</text>
-<rect x="480" y="120" width="205" height="48" rx="4" fill="#111" stroke="#2a2a2a"/><text x="503" y="151">TYPESCRIPT</text>
-<rect x="700" y="120" width="140" height="48" rx="4" fill="#111" stroke="#2a2a2a"/><text x="726" y="151">PHP</text>
-<rect x="855" y="120" width="140" height="48" rx="4" fill="#111" stroke="#2a2a2a"/><text x="884" y="151">LUA</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430">
+<defs>
+  <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff1538" stop-opacity="0"/><stop offset=".5" stop-color="#ff1538" stop-opacity=".2"/><stop offset="1" stop-color="#ff1538" stop-opacity="0"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="12"/></filter>
+  <style>
+    .t{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.label{fill:#f3f3f3;font-size:19px;font-weight:700}.name{fill:#d9d9d9;font-size:17px}.card{fill:#101012;stroke:#28282d;stroke-width:1.4}.learn{stroke:#8a0018}.ico{font-weight:800;font-size:16px;text-anchor:middle;dominant-baseline:middle}
+  </style>
+</defs>
+<rect width="1200" height="430" fill="#050505"/>
+<rect x="28" y="22" width="1144" height="386" rx="10" fill="#080808" stroke="#1b1b1f"/>
+<g opacity=".8"><ellipse cx="-130" cy="200" rx="190" ry="120" fill="#ff1538" opacity=".08" filter="url(#glow)"/><ellipse cx="1150" cy="330" rx="140" ry="95" fill="#ff1538" opacity=".06" filter="url(#glow)"/></g>
+<g class="t">
+<text x="70" y="60" fill="#ff1538" font-size="17" letter-spacing="3">TOOLKIT / LANGUAGE STATUS</text>
+<text x="70" y="100" class="label">WORKING KNOWLEDGE</text>
+<g transform="translate(70 122)">
+  <g><rect class="card" width="190" height="54" rx="7"/><circle cx="27" cy="27" r="15" fill="#3776ab"/><text class="t ico" x="27" y="28" fill="#fff">Py</text><text class="t name" x="54" y="34">PYTHON</text></g>
+  <g transform="translate(205)"><rect class="card" width="205" height="54" rx="7"/><rect x="12" y="12" width="30" height="30" rx="6" fill="#f7df1e"/><text class="t ico" x="27" y="28" fill="#111">JS</text><text class="t name" x="54" y="34">JAVASCRIPT</text></g>
+  <g transform="translate(425)"><rect class="card" width="205" height="54" rx="7"/><rect x="12" y="12" width="30" height="30" rx="6" fill="#3178c6"/><text class="t ico" x="27" y="28" fill="#fff">TS</text><text class="t name" x="54" y="34">TYPESCRIPT</text></g>
+  <g transform="translate(645)"><rect class="card" width="160" height="54" rx="7"/><ellipse cx="27" cy="27" rx="18" ry="12" fill="#777bb4"/><text class="t ico" x="27" y="28" fill="#fff" font-size="12">php</text><text class="t name" x="54" y="34">PHP</text></g>
+  <g transform="translate(820)"><rect class="card" width="160" height="54" rx="7"/><circle cx="27" cy="27" r="15" fill="#2c2d72"/><text class="t ico" x="27" y="28" fill="#fff">Lua</text><text class="t name" x="54" y="34">LUA</text></g>
 </g>
-<text x="60" y="225" fill="#f5f5f5" font-size="24" font-weight="700">CURRENTLY LEARNING</text>
-<g font-size="19" fill="#d6d6d6">
-<rect x="60" y="250" width="135" height="48" rx="4" fill="#111" stroke="#8a0018"/><text x="92" y="281">JAVA</text>
-<rect x="210" y="250" width="135" height="48" rx="4" fill="#111" stroke="#8a0018"/><text x="243" y="281">C++</text>
-<rect x="360" y="250" width="135" height="48" rx="4" fill="#111" stroke="#8a0018"/><text x="395" y="281">C#</text>
-<rect x="510" y="250" width="145" height="48" rx="4" fill="#111" stroke="#8a0018"/><text x="546" y="281">RUST</text>
-<rect x="670" y="250" width="165" height="48" rx="4" fill="#111" stroke="#8a0018"/><text x="708" y="281">KOTLIN</text>
-<rect x="850" y="250" width="190" height="48" rx="4" fill="#111" stroke="#8a0018"/><text x="882" y="281">ASSEMBLY</text>
+<text x="70" y="230" class="label">CURRENTLY LEARNING</text>
+<g transform="translate(70 252)">
+  <g><rect class="card learn" width="165" height="54" rx="7"/><circle cx="27" cy="27" r="15" fill="#ed8b00"/><text class="t ico" x="27" y="28" fill="#fff">J</text><text class="t name" x="54" y="34">JAVA</text></g>
+  <g transform="translate(178)"><rect class="card learn" width="165" height="54" rx="7"/><circle cx="27" cy="27" r="15" fill="#00599c"/><text class="t ico" x="27" y="28" fill="#fff">C++</text><text class="t name" x="54" y="34">C++</text></g>
+  <g transform="translate(356)"><rect class="card learn" width="165" height="54" rx="7"/><circle cx="27" cy="27" r="15" fill="#68217a"/><text class="t ico" x="27" y="28" fill="#fff">C#</text><text class="t name" x="54" y="34">C#</text></g>
+  <g transform="translate(534)"><rect class="card learn" width="165" height="54" rx="7"/><circle cx="27" cy="27" r="15" fill="#202020" stroke="#999"/><text class="t ico" x="27" y="28" fill="#fff">R</text><text class="t name" x="54" y="34">RUST</text></g>
+  <g transform="translate(712)"><rect class="card learn" width="175" height="54" rx="7"/><circle cx="27" cy="27" r="15" fill="#7f52ff"/><text class="t ico" x="27" y="28" fill="#fff">K</text><text class="t name" x="54" y="34">KOTLIN</text></g>
+  <g transform="translate(900)"><rect class="card learn" width="185" height="54" rx="7"/><circle cx="27" cy="27" r="15" fill="#3b3b3b"/><text class="t ico" x="27" y="28" fill="#fff">ASM</text><text class="t name" x="54" y="34">ASSEMBLY</text></g>
 </g>
 </g>
-<g fill="none" stroke="#ff1538" opacity=".32">
-<polygon points="1065,70 1083,60 1101,70 1101,91 1083,101 1065,91"><animateTransform attributeName="transform" type="translate" values="0 0;0 8;0 0" dur="8s" repeatCount="indefinite"/></polygon>
-<polygon points="1050,325 1065,316 1080,325 1080,343 1065,352 1050,343"><animateTransform attributeName="transform" type="translate" values="0 0;-8 2;0 0" dur="9s" repeatCount="indefinite"/></polygon>
-</g>
-<line x1="60" y1="355" x2="1140" y2="355" stroke="#202020"/>
-<line x1="60" y1="355" x2="420" y2="355" stroke="#ff1538" stroke-width="2"><animate attributeName="x2" values="180;520;420" dur="6s" repeatCount="indefinite"/></line>
+<rect x="-320" y="105" width="300" height="210" fill="url(#sweep)" opacity=".9" transform="skewX(-18)"><animate attributeName="x" values="-320;1280" dur="7s" repeatCount="indefinite"/></rect>
+<g fill="none" stroke="#ff1538" opacity=".28"><polygon points="1090,72 1110,60 1130,72 1130,95 1110,107 1090,95"><animateTransform attributeName="transform" type="translate" values="0 0;0 9;0 0" dur="7s" repeatCount="indefinite"/></polygon><polygon points="1048,334 1064,325 1080,334 1080,352 1064,361 1048,352"><animateTransform attributeName="transform" type="translate" values="0 0;-8 3;0 0" dur="9s" repeatCount="indefinite"/></polygon></g>
+<line x1="70" y1="363" x2="1130" y2="363" stroke="#202025"/><line x1="70" y1="363" x2="430" y2="363" stroke="#ff1538" stroke-width="2"><animate attributeName="x2" values="210;560;430" dur="6s" repeatCount="indefinite"/></line>
 </svg>
