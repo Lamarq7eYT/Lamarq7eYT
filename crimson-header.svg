@@ -1,29 +1,128 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
-  <rect width="1200" height="420" fill="#050505"/>
   <defs>
     <linearGradient id="g" x1="0" x2="1">
       <stop offset="0" stop-color="#ff1538" stop-opacity="0"/>
       <stop offset="0.5" stop-color="#ff1538" stop-opacity="0.4"/>
       <stop offset="1" stop-color="#8a0018" stop-opacity="0"/>
     </linearGradient>
+    <linearGradient id="deskTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#17171a"/>
+      <stop offset="0.35" stop-color="#0d0d0f"/>
+      <stop offset="1" stop-color="#050505"/>
+    </linearGradient>
+    <linearGradient id="deskEdge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1d1d22"/>
+      <stop offset="0.45" stop-color="#2c0b12"/>
+      <stop offset="0.62" stop-color="#8a0018"/>
+      <stop offset="0.75" stop-color="#2c0b12"/>
+      <stop offset="1" stop-color="#111116"/>
+    </linearGradient>
+    <radialGradient id="pawnBody" cx="38%" cy="28%" r="78%">
+      <stop offset="0" stop-color="#f5f5f5"/>
+      <stop offset="0.18" stop-color="#cfcfd4"/>
+      <stop offset="0.48" stop-color="#6f7078"/>
+      <stop offset="0.72" stop-color="#2b2b31"/>
+      <stop offset="1" stop-color="#0c0c10"/>
+    </radialGradient>
+    <linearGradient id="pawnStem" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#15151a"/>
+      <stop offset="0.28" stop-color="#8a8b93"/>
+      <stop offset="0.48" stop-color="#efeff2"/>
+      <stop offset="0.63" stop-color="#7b7c84"/>
+      <stop offset="1" stop-color="#111116"/>
+    </linearGradient>
+    <linearGradient id="pawnBase" x1="0" y1="0" x2="0.92" y2="0.25">
+      <stop offset="0" stop-color="#101014"/>
+      <stop offset="0.3" stop-color="#777880"/>
+      <stop offset="0.48" stop-color="#f2f2f4"/>
+      <stop offset="0.67" stop-color="#6a6b72"/>
+      <stop offset="1" stop-color="#0a0a0d"/>
+    </linearGradient>
+    <linearGradient id="lightSweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff1538" stop-opacity="0"/>
+      <stop offset="0.42" stop-color="#ff1538" stop-opacity="0.08"/>
+      <stop offset="0.5" stop-color="#ff5c73" stop-opacity="0.95"/>
+      <stop offset="0.57" stop-color="#ff1538" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#ff1538" stop-opacity="0"/>
+    </linearGradient>
     <filter id="blur"><feGaussianBlur stdDeviation="20"/></filter>
+    <filter id="pawnShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8" result="blur"/>
+      <feOffset dy="7" result="off"/>
+      <feFlood flood-color="#000" flood-opacity="0.8" result="flood"/>
+      <feComposite in="flood" in2="off" operator="in" result="shadow"/>
+      <feMerge><feMergeNode in="shadow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="redGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="pawnClip">
+      <circle cx="1010" cy="172" r="34"/>
+      <path d="M975 218 C985 196 995 194 1002 194 H1018 C1025 194 1035 196 1045 218 L1032 272 H988 Z"/>
+      <ellipse cx="1010" cy="278" rx="50" ry="15"/>
+      <path d="M970 284 C968 302 978 312 1010 316 C1042 312 1052 302 1050 284 Z"/>
+      <ellipse cx="1010" cy="315" rx="58" ry="16"/>
+    </clipPath>
   </defs>
+
+  <rect width="1200" height="420" fill="#050505"/>
   <rect x="0" y="345" width="1200" height="75" fill="url(#g)" filter="url(#blur)" opacity=".55"/>
+
   <g stroke="#ff1538" stroke-width="2" fill="none" opacity=".32">
     <polygon points="105,62 125,50 145,62 145,86 125,98 105,86"><animateTransform attributeName="transform" type="translate" values="0 0;0 8;0 0" dur="7s" repeatCount="indefinite"/></polygon>
     <polygon points="980,90 998,80 1016,90 1016,111 998,121 980,111"><animateTransform attributeName="transform" type="translate" values="0 0;7 -5;0 0" dur="9s" repeatCount="indefinite"/></polygon>
     <polygon points="1080,250 1095,241 1110,250 1110,268 1095,277 1080,268"><animateTransform attributeName="transform" type="translate" values="0 0;-7 4;0 0" dur="8s" repeatCount="indefinite"/></polygon>
     <polygon points="170,280 184,272 198,280 198,296 184,304 170,296"><animateTransform attributeName="transform" type="translate" values="0 0;5 5;0 0" dur="10s" repeatCount="indefinite"/></polygon>
   </g>
+
   <g stroke="#222" stroke-width="1" opacity=".5">
     <path d="M40 45H1160M40 370H1160M70 25V395M1130 25V395"/>
   </g>
+
   <g font-family="monospace">
     <text x="82" y="72" fill="#ff1538" font-size="15" letter-spacing="3">SYSTEM 01</text>
     <circle cx="1065" cy="67" r="5" fill="#ff1538"><animate attributeName="opacity" values="1;.25;1" dur="2s" repeatCount="indefinite"/></circle>
     <text x="1082" y="72" fill="#d6d6d6" font-size="14">ONLINE</text>
   </g>
+
   <text x="78" y="215" fill="#f5f5f5" font-family="Arial, Helvetica, sans-serif" font-size="100" font-weight="800" letter-spacing="2">EVANDRO</text>
   <rect x="78" y="247" width="320" height="4" fill="#ff1538"><animate attributeName="width" values="100;320;260;320" dur="6s" repeatCount="indefinite"/></rect>
   <text x="80" y="300" fill="#b8b8b8" font-family="monospace" font-size="22" letter-spacing="3">FULL-STACK DEVELOPER • 2D/3D ANIMATOR</text>
+
+  <!-- desk / table structure -->
+  <g>
+    <path d="M0 340 L1200 340 L1200 420 L0 420 Z" fill="#060607" opacity=".94"/>
+    <path d="M0 338 L1200 338 L1145 377 L55 377 Z" fill="url(#deskTop)"/>
+    <path d="M55 377 H1145 L1128 392 H72 Z" fill="url(#deskEdge)" opacity=".9"/>
+    <path d="M65 392 H225 L205 420 H88 Z" fill="#0a0a0d"/>
+    <path d="M975 392 H1135 L1112 420 H995 Z" fill="#0a0a0d"/>
+    <line x1="56" y1="377" x2="1144" y2="377" stroke="#3a3a40" stroke-width="1"/>
+    <line x1="72" y1="392" x2="1128" y2="392" stroke="#8a0018" stroke-width="1" opacity=".65"/>
+    <path d="M730 345 H1110" stroke="#ff1538" stroke-opacity=".18" stroke-width="1"/>
+  </g>
+
+  <!-- 3D chess pawn -->
+  <g filter="url(#pawnShadow)">
+    <ellipse cx="1010" cy="340" rx="72" ry="15" fill="#000" opacity=".55"/>
+    <ellipse cx="1010" cy="337" rx="60" ry="10" fill="#ff1538" opacity=".11" filter="url(#redGlow)"/>
+    <circle cx="1010" cy="172" r="34" fill="url(#pawnBody)" stroke="#b9bac0" stroke-opacity=".25"/>
+    <ellipse cx="998" cy="160" rx="11" ry="8" fill="#fff" opacity=".35"/>
+    <path d="M975 218 C985 196 995 194 1002 194 H1018 C1025 194 1035 196 1045 218 C1040 240 1035 254 1032 272 H988 C985 254 980 240 975 218 Z" fill="url(#pawnStem)" stroke="#7e7f86" stroke-opacity=".28"/>
+    <ellipse cx="1010" cy="278" rx="50" ry="15" fill="url(#pawnBase)"/>
+    <path d="M970 284 C968 302 978 312 1010 316 C1042 312 1052 302 1050 284 Z" fill="url(#pawnStem)"/>
+    <ellipse cx="1010" cy="315" rx="58" ry="16" fill="url(#pawnBase)" stroke="#8f9098" stroke-opacity=".25"/>
+    <ellipse cx="994" cy="311" rx="21" ry="5" fill="#fff" opacity=".17"/>
+  </g>
+
+  <!-- animated red light crossing the pawn and table -->
+  <g clip-path="url(#pawnClip)" opacity=".95">
+    <rect x="860" y="110" width="120" height="250" fill="url(#lightSweep)" transform="skewX(-12)">
+      <animate attributeName="x" values="850;1085;850" dur="6.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x="800" y="320" width="180" height="18" fill="url(#lightSweep)" opacity=".45" transform="skewX(-16)">
+    <animate attributeName="x" values="760;1090;760" dur="6.5s" repeatCount="indefinite"/>
+  </rect>
+  <circle cx="1010" cy="172" r="42" fill="none" stroke="#ff1538" stroke-width="1" opacity=".08"><animate attributeName="opacity" values=".04;.18;.04" dur="4s" repeatCount="indefinite"/></circle>
 </svg>
