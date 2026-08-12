@@ -46,13 +46,13 @@
 ### JavaScript & TypeScript Ecosystem
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=nodejs,react,nextjs,vue,nuxt,angular,svelte,astro,express,nestjs,vite,tailwind" alt="JavaScript and TypeScript ecosystem" />
+  <img src="./crimson-ecosystem.svg" alt="JavaScript and TypeScript ecosystem panel" width="860" />
 </p>
 
 ### Web, Data & Tools
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,postgres,mysql,sqlite,docker,git,github,linux,vscode,visualstudio,blender,ae,ps" alt="Web data tools and creative software" />
+  <img src="./crimson-tools.svg" alt="Web data tools and creative software panel" width="860" />
 </p>
 
 <p align="center">
