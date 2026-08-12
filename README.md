@@ -15,7 +15,7 @@
 ## Identity
 
 <p align="center">
-  <img src="./crimson-identity-terminal-v2.svg" alt="Animated TypeScript identity terminal" width="100%" />
+  <img src="./crimson-identity-terminal-v3.svg" alt="Animated TypeScript identity terminal" width="100%" />
 </p>
 
 <p align="center">
