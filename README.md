@@ -14,9 +14,9 @@
 
 ## Identity
 
-> I'm Evandro, a **Full-Stack Developer and 2D/3D Animator** committed to continuous technical and creative growth. I focus on building stronger foundations, refining the quality of my work, and expanding my experience as I prepare to enter the professional market.
->
-> I enjoy turning ideas into practical projects, learning through experimentation, and continuously improving the way I design, develop, and present what I create.
+<p align="center">
+  <img src="./crimson-identity-terminal.svg" alt="Animated TypeScript identity terminal" width="860" />
+</p>
 
 <p align="center">
   <img src="./crimson-divider.svg" alt="Crimson animated divider" width="860" />
