@@ -1,159 +1,90 @@
 <p align="center">
-  <img src="./glitch-header.svg" alt="LlewxamDev - Frame a Frame ink profile" width="860" />
+  <img src="./crimson-header.svg" alt="Evandro — Full-Stack Developer and 2D/3D Animator" width="860" />
 </p>
 
 <p align="center">
   <a href="https://github.com/LlewxamDev?tab=followers">
-    <img src="https://img.shields.io/github/followers/LlewxamDev?label=Followers&style=for-the-badge&color=ffffff&labelColor=000000&logo=github&logoColor=ffffff" alt="GitHub followers" />
+    <img src="https://img.shields.io/github/followers/LlewxamDev?label=Followers&style=for-the-badge&color=ff1538&labelColor=050505&logo=github&logoColor=ffffff" alt="GitHub followers" />
   </a>
   <a href="https://github.com/LlewxamDev?tab=repositories">
-    <img src="https://img.shields.io/badge/Theme-Frame%20a%20Frame-ffffff?style=for-the-badge&labelColor=000000" alt="Frame a Frame theme" />
+    <img src="https://img.shields.io/badge/Repositories-Explore-ff1538?style=for-the-badge&labelColor=050505&logo=github&logoColor=ffffff" alt="Repositories" />
   </a>
-  <a href="https://github.com/LlewxamDevtab=repositories">
-    <img src="https://img.shields.io/badge/Ink-Black%20%2F%20White-000000?style=for-the-badge&labelColor=ffffff&color=000000" alt="Black and white ink theme" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=LlewxamDev&style=for-the-badge&color=000000&labelColor=ffffff&label=Profile+Views" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=LlewxamDev&style=for-the-badge&color=ff1538&labelColor=050505&label=Profile+Views" alt="Profile views" />
 </p>
-
-<p align="center">
-  <img src="./ink-splash-lines.svg" alt="Animated white ink skill lines" width="860" />
-</p>
-
-<p align="center">
-  <img src="./ink-background.svg" alt="Ink frame background concept for the full README" width="860" />
-</p>
-
----
 
 ## Identity
 
-```ts
-const llew = {
-  github: "Llewxam",
-  theme: "ink animation",
-  role: "Full-Stack Developer",
-  languages: [
-    "Python",
-    "JavaScript",
-    "TypeScript",
-    "Java",
-    "C++",
-    "C#",
-    "Rust",
-    "PhP",
-    "Lua",
-    "Assembly",
-  ],
-  web: ["HTML5", "CSS3", "Node.js", "major JS/TS frameworks"],
-  data: ["SQL", "PostgreSQL", "MySQL", "SQLite", "SQL Server"],
-  tools: ["Docker", "Git", "GitHub CLI", "Linux", "VS Code", "Visual Studio"],
-  signature: "If you're going to see one of my works, be careful with your emotions",
-};
-```
-To be honest, I really like TypeScript; the stack I use most often in your day-to-day work is TypeScript, so you'll see a lot of TypeScript here.
+> I'm Evandro, a **Full-Stack Developer and 2D/3D Animator** committed to continuous technical and creative growth. I focus on building stronger foundations, refining the quality of my work, and expanding my experience as I prepare to enter the professional market.
+>
+> I enjoy turning ideas into practical projects, learning through experimentation, and continuously improving the way I design, develop, and present what I create.
 
 <p align="center">
-  <img src="./ink-divider.svg" alt="Animated ink divider" width="860" />
+  <img src="./crimson-divider.svg" alt="Crimson animated divider" width="860" />
 </p>
 
-## Featured Scenes
-
-<p align="center">
-  <img src="./project-reel.svg" alt="Animated project reel for AegisHub, AegisCore, HackerPage, and Portf-lio" width="860" />
-</p>
+## Selected Work
 
 <p align="center">
   <a href="https://github.com/LlewxamDev/AegisHub">
-    <img src="https://github-readme-stats-rust-tau-40.vercel.app/api/pin/?username=LlewxamDev&repo=AegisHub&bg_color=ffffff&title_color=111111&text_color=333333&icon_color=ff2d6b&border_color=111111" alt="AegisHub repository card" />
+    <img src="https://github-readme-stats-rust-tau-40.vercel.app/api/pin/?username=LlewxamDev&repo=AegisHub&bg_color=050505&title_color=ffffff&text_color=b8b8b8&icon_color=ff1538&border_color=8a0018" alt="AegisHub repository card" />
   </a>
   <a href="https://github.com/LlewxamDev/AegisCore">
-    <img src="https://github-readme-stats-rust-tau-40.vercel.app/api/pin/?username=LlewxamDev&repo=AegisCore&bg_color=ffffff&title_color=111111&text_color=333333&icon_color=00a7c7&border_color=111111" alt="AegisCore repository card" />
+    <img src="https://github-readme-stats-rust-tau-40.vercel.app/api/pin/?username=LlewxamDev&repo=AegisCore&bg_color=050505&title_color=ffffff&text_color=b8b8b8&icon_color=ff1538&border_color=8a0018" alt="AegisCore repository card" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/LlewxamDev/AegisHub/stargazers">
-    <img src="https://img.shields.io/github/stars/LlewxamDev/AegisHub?style=for-the-badge&label=AegisHub%20Stars&color=ffffff&labelColor=000000&logo=github&logoColor=ffffff" alt="AegisHub stars" />
-  </a>
-  <a href="https://github.com/LlewxamDev/AegisCore/stargazers">
-    <img src="https://img.shields.io/github/stars/LlewxamDev/AegisCore?style=for-the-badge&label=AegisCore%20Stars&color=ffffff&labelColor=000000&logo=github&logoColor=ffffff" alt="AegisCore stars" />
-  </a>
-  <a href="https://github.com/LlewxamDev/HackerPage/stargazers">
-    <img src="https://img.shields.io/github/stars/LlewxamDev/HackerPage?style=for-the-badge&label=HackerPage%20Stars&color=ffffff&labelColor=000000&logo=github&logoColor=ffffff" alt="HackerPage stars" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="./ink-divider.svg" alt="Animated ink divider" width="860" />
+  <img src="./crimson-divider.svg" alt="Crimson animated divider" width="860" />
 </p>
 
 ## Toolkit
 
-### Languages
-
 <p align="center">
-  <img src="./toolkit-languages.svg" alt="Language toolkit reel" width="860" />
+  <img src="./crimson-toolkit.svg" alt="Evandro language toolkit and learning status" width="860" />
 </p>
 
-### JavaScript and TypeScript Frameworks
+### JavaScript & TypeScript Ecosystem
 
 <p align="center">
-  <img src="./toolkit-frameworks.svg" alt="JavaScript and TypeScript framework toolkit reel" width="860" />
+  <img src="https://skillicons.dev/icons?i=nodejs,react,nextjs,vue,nuxt,angular,svelte,astro,express,nestjs,vite,tailwind" alt="JavaScript and TypeScript ecosystem" />
 </p>
 
-### Web, Data, Tools, Motion
+### Web, Data & Tools
 
 <p align="center">
-  <img src="./toolkit-tools.svg" alt="Web data tools and motion toolkit reel" width="860" />
-</p>
-
-<p align="center">
-  <img src="./ink-divider.svg" alt="Animated ink divider" width="860" />
-</p>
-
-## Stats Roll
-
-<p align="center">
-  <img height="180em" src="https://github-readme-stats-rust-tau-40.vercel.app/api?username=LlewxamDev&show_icons=true&bg_color=ffffff&title_color=111111&text_color=333333&icon_color=ff2d6b&border_color=111111&hide_border=false&count_private=true" alt="LlewxamDev GitHub stats" />
-  <img height="180em" src="https://github-readme-stats-rust-tau-40.vercel.app/api/top-langs/?username=LlewxamDev&layout=compact&bg_color=ffffff&title_color=111111&text_color=333333&border_color=111111&langs_count=12" alt="LlewxamDev top languages" />
+  <img src="https://skillicons.dev/icons?i=html,css,postgres,mysql,sqlite,docker,git,github,linux,vscode,visualstudio,blender,ae,ps" alt="Web data tools and creative software" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=LlewxamDev&background=FFFFFF&border=111111&stroke=111111&ring=111111&fire=ff2d6b&currStreakNum=111111&sideNums=111111&currStreakLabel=111111&sideLabels=333333&dates=555555" alt="LlewxamDev GitHub streak" />
+  <img src="./crimson-divider.svg" alt="Crimson animated divider" width="860" />
+</p>
+
+## GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats-rust-tau-40.vercel.app/api?username=LlewxamDev&show_icons=true&bg_color=050505&title_color=ffffff&text_color=b8b8b8&icon_color=ff1538&border_color=8a0018&hide_border=false&count_private=true" alt="LlewxamDev GitHub stats" />
 </p>
 
 <p align="center">
-  <img src="./ink-divider.svg" alt="Animated ink divider" width="860" />
-</p>
-
-## Trophy Board
-
-<p align="center">
-  <img src="./trophy-reel.svg" alt="Animated trophy reel for LlewxamDev GitHub achievements" width="860" />
+  <img src="https://streak-stats.demolab.com?user=LlewxamDev&background=050505&border=8A0018&stroke=777777&ring=FF1538&fire=FF1538&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FF1538&sideLabels=B8B8B8&dates=777777" alt="LlewxamDev GitHub streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.screw-hand.vercel.app/?username=LlewxamDev&theme=flat&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=4" alt="Live LlewxamDev GitHub profile trophies" />
+  <img src="./crimson-divider.svg" alt="Crimson animated divider" width="860" />
 </p>
 
 <p align="center">
-  <img src="./ink-divider.svg" alt="Animated ink divider" width="860" />
+  <img src="./crimson-trophy.svg" alt="Trophy Board" width="860" />
 </p>
 
-## Activity Graph
-
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=LlewxamDev&bg_color=ffffff&color=111111&line=111111&point=ff2d6b&area=true&area_color=00000018&hide_border=false&border_color=111111" alt="LlewxamDev activity graph" />
+  <img src="https://github-profile-trophy.screw-hand.vercel.app/?username=LlewxamDev&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=4" alt="Live LlewxamDev GitHub trophies" />
 </p>
 
 ---
 
 <p align="center">
-  <a href="https://github.com/LlewxamDev?tab=repositories">Repositories</a> /
-  <a href="https://github.com/LlewxamDev?tab=stars">Stars</a> /
+  <a href="https://github.com/LlewxamDev?tab=repositories">Repositories</a> ·
+  <a href="https://github.com/LlewxamDev?tab=stars">Stars</a> ·
   <a href="https://github.com/LlewxamDev?tab=followers">Followers</a>
-</p>
-
-<p align="center">
-  <img src="./ink-background.svg" alt="Ink frame footer" width="860" />
 </p>
