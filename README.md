@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./crimson-header-v2.svg" alt="Evandro — Full-Stack Developer and 2D/3D Animator" width="860" />
+  <img src="./crimson-header-v3.svg" alt="Evandro — Full-Stack Developer and 2D/3D Animator" width="860" />
 </p>
 
 <p align="center">
