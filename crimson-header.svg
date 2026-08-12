@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+  <rect width="1200" height="420" fill="#050505"/>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#ff1538" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ff1538" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#8a0018" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="20"/></filter>
+  </defs>
+  <rect x="0" y="345" width="1200" height="75" fill="url(#g)" filter="url(#blur)" opacity=".55"/>
+  <g stroke="#ff1538" stroke-width="2" fill="none" opacity=".32">
+    <polygon points="105,62 125,50 145,62 145,86 125,98 105,86"><animateTransform attributeName="transform" type="translate" values="0 0;0 8;0 0" dur="7s" repeatCount="indefinite"/></polygon>
+    <polygon points="980,90 998,80 1016,90 1016,111 998,121 980,111"><animateTransform attributeName="transform" type="translate" values="0 0;7 -5;0 0" dur="9s" repeatCount="indefinite"/></polygon>
+    <polygon points="1080,250 1095,241 1110,250 1110,268 1095,277 1080,268"><animateTransform attributeName="transform" type="translate" values="0 0;-7 4;0 0" dur="8s" repeatCount="indefinite"/></polygon>
+    <polygon points="170,280 184,272 198,280 198,296 184,304 170,296"><animateTransform attributeName="transform" type="translate" values="0 0;5 5;0 0" dur="10s" repeatCount="indefinite"/></polygon>
+  </g>
+  <g stroke="#222" stroke-width="1" opacity=".5">
+    <path d="M40 45H1160M40 370H1160M70 25V395M1130 25V395"/>
+  </g>
+  <g font-family="monospace">
+    <text x="82" y="72" fill="#ff1538" font-size="15" letter-spacing="3">SYSTEM 01</text>
+    <circle cx="1065" cy="67" r="5" fill="#ff1538"><animate attributeName="opacity" values="1;.25;1" dur="2s" repeatCount="indefinite"/></circle>
+    <text x="1082" y="72" fill="#d6d6d6" font-size="14">ONLINE</text>
+  </g>
+  <text x="78" y="215" fill="#f5f5f5" font-family="Arial, Helvetica, sans-serif" font-size="100" font-weight="800" letter-spacing="2">EVANDRO</text>
+  <rect x="78" y="247" width="320" height="4" fill="#ff1538"><animate attributeName="width" values="100;320;260;320" dur="6s" repeatCount="indefinite"/></rect>
+  <text x="80" y="300" fill="#b8b8b8" font-family="monospace" font-size="22" letter-spacing="3">FULL-STACK DEVELOPER • 2D/3D ANIMATOR</text>
+</svg>
