@@ -57,7 +57,7 @@
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats-rust-tau-40.vercel.app/api?username=LlewxamDev&show_icons=true&bg_color=050505&title_color=ffffff&text_color=b8b8b8&icon_color=ff1538&border_color=8a0018&hide_border=false&count_private=true" alt="LlewxamDev GitHub stats" />
+  <img src="https://github-readme-stats-rust-tau-40.vercel.app/api?username=LlewxamDev&show_icons=true&bg_color=050505&title_color=ffffff&text_color=b8b8b8&icon_color=ff1538&border_color=8a0018&hide_border=false&commits_year=2026&cache_seconds=43200&v=20260813" alt="LlewxamDev GitHub stats" />
 </p>
 
 <p align="center">
