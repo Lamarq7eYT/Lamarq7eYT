@@ -22,15 +22,10 @@
   <img src="./crimson-divider.svg" alt="Crimson animated divider" width="860" />
 </p>
 
-## Selected Work
+## Development Workstation
 
 <p align="center">
-  <a href="https://github.com/LlewxamDev/AegisHub">
-    <img src="https://github-readme-stats-rust-tau-40.vercel.app/api/pin/?username=LlewxamDev&repo=AegisHub&bg_color=050505&title_color=ffffff&text_color=b8b8b8&icon_color=ff1538&border_color=8a0018" alt="AegisHub repository card" />
-  </a>
-  <a href="https://github.com/LlewxamDev/AegisCore">
-    <img src="https://github-readme-stats-rust-tau-40.vercel.app/api/pin/?username=LlewxamDev&repo=AegisCore&bg_color=050505&title_color=ffffff&text_color=b8b8b8&icon_color=ff1538&border_color=8a0018" alt="AegisCore repository card" />
-  </a>
+  <img src="./crimson-workstation.svg" alt="Evandro development workstation — Fractal Design North XL build" width="100%" />
 </p>
 
 <p align="center">
