@@ -25,7 +25,7 @@
 ## Development Workstation
 
 <p align="center">
-  <img src="./crimson-workstation.svg" alt="Evandro development workstation — Fractal Design North XL build" width="100%" />
+  <img src="./crimson-workstation-v2.svg" alt="Evandro development workstation — Fractal Design North XL build" width="100%" />
 </p>
 
 <p align="center">
